@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Should you serialize your rigging data - Hello! I'm Marin Petrov</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+  <meta content="Hello! I'm Marin Petrov" property="og:site_name">
+  
+  <meta content="Should you serialize your rigging data" property="og:title">
+  
+  
+  <meta content="article" property="og:type">
+  
+  
+  <meta content="Deciding if and when you should serialize your rigging data." property="og:description">
+  
+  
+  <meta content="https://marinpetrov.com/serializing-rigging-data-or-not/" property="og:url">
+  
+  
+  <meta content="2020-05-31T13:32:20+03:00" property="article:published_time">
+  <meta content="https://marinpetrov.com/about/" property="article:author">
+  
+  
+  <meta content="https://marinpetrov.com/assets/img/serialize.png" property="og:image">
+  
+  
+  
+  
+  
+  
+  <meta content="Rigging" property="article:tag">
+  
+  <meta content="Pipeline" property="article:tag">
+  
+  
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@marinwaves">
+  
+  <meta name="twitter:title" content="Should you serialize your rigging data">
+  
+  
+  <meta name="twitter:url" content="https://marinpetrov.com/serializing-rigging-data-or-not/">
+  
+  
+  <meta name="twitter:description" content="Deciding if and when you should serialize your rigging data.">
+  
+  
+  <meta name="twitter:image:src" content="https://marinpetrov.com/assets/img/serialize.png">
+  
+
+	<meta name="description" content="Deciding if and when you should serialize your rigging data.">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab:300|Roboto:500" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/"><img src="/assets/img/Marin-wood-bw-square.jpg" alt="Marin Petrov"></a>
+      </div>
+      <div class="author-name">Marin Petrov</div>
+      <p>I am currently working as a product manager, facilitator and coach and care deeply about the invisible, but important ingredients that make high-performing teams. I was very fortunate to have worked at one of the best animation studios in the world on features like "Ice Age", "Rio", "Ferdinand" and many more. I also co-founded a remote self-managed VR Game Studio and a remote self-managed software company called RGBNotes, which was later acquired by Amazon.</p>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+          <li><a href="https://twitter.com/marinwaves" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        
+        
+          <li class="github"><a href="http://github.com/scroll" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/in/marinpetrov" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        
+        
+        <li class="email"><a href="mailto:marin@hey.com"><i class="fa fa-envelope-o"></i></a></li>
+        
+        
+          <li><a href="https://scroll-lock.gumroad.com/" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2022 &copy; Marin Petrov</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/assets/img/serialize.png alt="Should you serialize your rigging data">
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">Should you serialize your rigging data</h1>
+        <div class="page-date"><span>2020, May 31&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <p>This blog post is more about rigging pipeline patterns rather than how to actually do rig data serialization. For the latter, there are multiple articles on the subject and we are not going to discuss it here. So let’s talk about one such rigging pipeline pattern.</p>
+
+<p>Before we dive in to explore it, let’s talk about a few requirements first. Regardless of what type of studio you work at - VFX, Feature Animation, or Games, it is almost certain that you probably have the requirement to rebuild your rigs. This is mostly a production requirement - if you want to stay competitive you don’t want to lose time and build your rigs by hand from scratch any time the production requirements for that rig change. Most probably you have some kind of framework or modular rigging system that does this for you. And let’s face it - rig requirements change constantly throughout the production so being able to push a button and rebuild a rig after the requirements changed is the most logical step. But being involved in multiple studios and pipelines during the years I have observed two patterns for doing that.</p>
+
+<p>One we will call “rig data serialization” or RDS for short. This is a great pattern because it allows you to write to disk or a database any deformer data you might have in your rig asset - this includes but is not limited to skinning and weights data, deformer weights, blendshape data, pose reader configuration, etc.,  and then rebuild your animation rig without worrying about losing any of this data.  It is great because you are not confined to the limits of your DCC to store that data. You can back it up, share it with other team members, import it in other software packages, lay the groundwork for rig variants pipeline and it allows for something I haven’t seen employed much - allowing multiple rig artists to work on the same asset without stepping on each other’s toes. That said, this also comes with a cost. And unless you are Disney, Blizzard, or any other big studio that can afford to do this, you need to most probably take this into consideration when you design your rigging pipeline. Here are just some of the costs of going that route:</p>
+
+<ul>
+  <li>
+    <p>Writing and supporting exporters/importers for any of this data. Nowadays it’s quite easy to just use JSON (plain text) or proto buffers(binary)  to store this in some way, but you have to be ready to support the tools especially when the DCC updates and your tools end up being broken.</p>
+  </li>
+  <li>
+    <p>Backward compatibility. Making sure you can import this data in newer versions of your DCC is actually important. This sometimes can be extremely tricky unless you are using protobuffers which avoids this issue.</p>
+  </li>
+  <li>
+    <p>Syncing up the data of your rig with the rig itself. Every time you decouple some data, you also need to make sure you and someone else from your team can couple it back the same way it was before. This means making sure that you are actually importing the correct and newest data and not some older version of it from another asset. And that another rig artist can actually assemble a rig made by someone else.</p>
+  </li>
+  <li>
+    <p>Making sure that your data is importable even after you have changed some of the rig requirements - for example, what happens if you exported your skinning weights data, but your joints change names, you delete some joints or you add some joints? Can you make sure your pipeline supports these very common cases?</p>
+  </li>
+  <li>
+    <p>Sometimes, you might need a tool to view, compare (diff), and maybe manipulate the data you serialize externally. These are another set of tools to write, and support, just to be able to do that.</p>
+  </li>
+  <li>
+    <p>Making sure that you write and support all the additional steps in your rigging framework that import/rebuild your deformation data.</p>
+  </li>
+  <li>
+    <p>Making sure even junior artists can export/import this data. Too often rigging frameworks require artists to write and script some logic in something like a post-build step in order to import back their deformer stack data. But not all rig artists can script or are comfortable doing so.</p>
+  </li>
+</ul>
+
+<p>So if the RDS pattern works for big studios it should most certainly work for small studios too, right? Well, the truth is usually quite the opposite. Patterns that work for big studios most probably are quite harmful for small or medium-sized ones. When deciding what patterns make sense for my team, my approach usually has been to step back and look at the requirements again and what we are actually trying to achieve here. In the case of RDS, there might be many considerations about using it, and if you don’t have another choice, it’s a great pattern. But most studios actually do have a choice and if the only thing we are considering is being able to rebuild a rig when the requirements for the rig change, then there is a simpler approach.</p>
+
+<p>One famous pattern that all programmers know and love is “minimize your dependencies”. In the case of a rig asset, the dependencies are all the data that makes the rig asset. The more you minimize them, the easier it is to support the rig and the pipeline itself. Especially if you don’t have the luxury to work in a 2000 people studio. There are usually two cases where we want to rebuild a rig:</p>
+
+<ul>
+  <li>
+    <p>The animation control rig requirements change. This happens when there is a request from the animation department to add or remove (although I have never experienced the latter) functionality.</p>
+  </li>
+  <li>
+    <p>The underlying model changes in some way. This can also include topology change.</p>
+  </li>
+</ul>
+
+<p>Let’s examine both cases.</p>
+
+<p>In the first case, a change is requested to the control rig. Here, the only thing that actually needs to change is the control rig logic and behavior. We don’t need to update anything in the deformer stack. In this case you can treat the control rig and deformer stack separately and design your pipeline in such a way where it allows you to rebuild your rig without deleting your deformers. And I would argue that the best format for your deformer data is not some JSON or proto buffer sitting on your hard drive, but actually the DCC scene itself! What better format for your skinning data than the skinning deformer in your scene? It also comes with a full-fledged interface for debugging it - like skinning tools, API for accessing and manipulating the data, etc. If you need to make an exporter and viewer of your data that complex - you should be quite ready to support such a development overhead. There is no real need to export all the deformation data, delete the rig, rebuild the rig, re-import the deformation data when the only thing that needs changing doesn’t even affect the deformation stack in the first place. You will save yourself a lot of headaches if you can just rebuild the control rig and leave the deformation data in the scene itself. In fact, I can assure you that you can even do the same thing in the second use case as well, even when you need to accommodate a topology change in the geometry. An easy solution to this is if you import the updated model in your DCC, transfer all the deformers to the new geometry, and delete/rebuild the rig for the new geometry. Again, there is no real need to leave the scene or export your deformers externally.</p>
+
+<p>The biggest benefit that comes with this approach is that individual artists can work on rigs without the need for someone else from the team to step up and fix a broken exporter, debug why some data that was exported just one version ago is no longer importable and so on. It makes the rigging pipeline much easier to support. It doesn’t require a whole team to support all the infrastructure that comes with rig data serialization.</p>
+
+<p>So are you a small team or a big team? If you are a small team, then consider rebuilding your rigs without serializing your deformer data.</p>
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=Should you serialize your rigging data&url=https://marinpetrov.com/serializing-rigging-data-or-not/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=https://marinpetrov.com/serializing-rigging-data-or-not/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=https://marinpetrov.com/serializing-rigging-data-or-not/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/tags#Rigging" class="tag">&#35; Rigging</a>
+          
+            <a href="/tags#Pipeline" class="tag">&#35; Pipeline</a>
+          
+        </div>
+      </div>
+      <section class="comment-area">
+  <div class="comment-wrapper">
+    
+  </div>
+</section> <!-- End Comment Area -->
+
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-168119804-1', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>
