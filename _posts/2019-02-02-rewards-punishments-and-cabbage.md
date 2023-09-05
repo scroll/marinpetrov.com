@@ -6,6 +6,7 @@ description: How decision making works in companies
 img: cabbage.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [NVC, Rewards, Management]
+growth: 1
 ---
 
 Yesterday we had an argument with my wife. We started mildly, then it became

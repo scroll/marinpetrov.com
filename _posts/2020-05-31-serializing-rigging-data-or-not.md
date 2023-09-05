@@ -6,6 +6,7 @@ description: Deciding if and when you should serialize your rigging data.
 img: serialize.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Rigging, Pipeline]
+growth: 1
 ---
 
 This blog post is more about rigging pipeline patterns rather than how to actually do rig data serialization. For the latter, there are multiple articles on the subject and we are not going to discuss it here. So let’s talk about one such rigging pipeline pattern.

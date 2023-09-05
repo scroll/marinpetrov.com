@@ -12,6 +12,18 @@ layout: main
     <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
     <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
     <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+    {% if post.growth %}
+      {% if post.growth == 1 %}
+        <span class="post-date">&nbsp;&nbsp;&nbsp;—&nbsp;&nbsp;&nbsp;growing kelp</span>
+        <img class="growth" src={{ "/assets/img/" | prepend: site.baseurl | append : post.growth | append : '.svg'}}>
+      {% elsif post.growth == 2 %}
+        <span class="post-date">&nbsp;&nbsp;&nbsp;—&nbsp;&nbsp;&nbsp;sea garden</span>
+        <img class="growth" src={{ "/assets/img/" | prepend: site.baseurl | append : post.growth | append : '.svg'}}>
+      {% elsif post.growth == 3 %}
+        <span class="post-date">&nbsp;&nbsp;&nbsp;—&nbsp;&nbsp;&nbsp;coral reef</span>
+        <img class="growth" src={{ "/assets/img/" | prepend: site.baseurl | append : post.growth | append : '.svg'}}>
+      {% endif %}
+    {% endif %}
   </div>
 </article>
 {% endfor %}

@@ -6,6 +6,7 @@ description: Why do all studios (animation studios in this case), have the same 
 img: orgchart.png
 fig-caption: # Add figcaption (optional)
 tags: [Management, Studio]
+growth: 1
 ---
 
 I posted this question on Twitter the other day:

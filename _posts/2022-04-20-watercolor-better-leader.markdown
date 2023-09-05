@@ -1,11 +1,12 @@
 ---
 layout: post
-title: How painting in watercolor can help you be a better leader
+title: How painting in watercolor helps me be a better leader
 date: 2022-04-20 13:32:20 +0300
 description: 
 img: watercolor-02.jpeg
 fig-caption: # Add figcaption (optional)
 tags: [painting, watercolor, leadership]
+growth: 3
 ---
 
 Last year I started painting again after а 10 years pause. I used to paint a lot, but I stopped mostly because I became more interested in programming and tech and I just wanted to learn to be a better programmer and later leader. But last year, I wanted to get into painting again and I chose a medium that was foreign to me - watercolor. I've always admired watercolor artists, but I never had the chance or better said - the bravery to try it out. Last Christmas, I got myself a watercolor set, some nice brushes, good paper, and a Schoolism account and tried it out. Initially, the results sucked. Mostly, because I used to paint with oil and pencil and later in digital. But watercolor is just a completely different beast. So I had to unlearn everything I know about painting and start pretty much over. After a while, I started liking and enjoying what I paint. I'm still very far away from any good watercolor artist I admire out there, but it's getting better. For the past year, I have been thinking a lot about watercolor and what it gives me and have found some tremendous benefits that came with it that I didn't expect before I started this journey. They came as a bonus with the activity.

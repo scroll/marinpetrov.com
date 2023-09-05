@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Why I quit my dream job and started two companies
-date: 2020-10-06 13:32:20 +0300
+title: The story of why I quit my dream job and started two companies
+date: 2023-08-20 13:32:20 +0300
 description: Reflecting on my failures and successes
 img: journey.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Management, Startups, Culture]
+growth: 2
 ---
 
 In 2016 I left my well-paid dream job in one of the best animation studios in the world, to start two companies. It was very risky, full of ups and downs, but it eventually worked out and one of the companies was acquired. This is the story of why I decided to embark on that adventure and what that journey was like.
@@ -85,6 +86,6 @@ One day, we were approached by another company that wanted to talk to us about a
 
 
 ## Realizing what matters
-After the acquisition, I decided to take some time off and think about what I learned on this journey. At the beginning, all I wanted was to work for a big and successful company, but I didn't think about what success really means to me, so it was a stupid goal in itself. Some define success as "maximizing shareholders value" and put investors first. Others define success as "maximizing user value" and put customers first. During my time with Hack and Paint and RGBnotes, I've come to realize that what matters the most is maximizing value for employees. Building a culture with a great level of collaboration and trust. Removing bureaucracy completely. Because, when companies invest in their culture, their customers are happier and in return, their bottom line greatly improves. Sugata Mitra once said *"We engineered a system, so robust that it's still with us today, continuously producing identical people, for a machine that no longer exists"* 
+After the acquisition, I decided to take some time off and think about what I learned on this journey. At the beginning, all I wanted was to work for a big and successful company, but I didn't think about what success really means to me, so it was a stupid goal in itself. Some define success as "maximizing shareholders value" and put investors first. Others define success as "maximizing user value" and put customers first. During my time with Hack and Paint and RGBnotes, I've come to realize that what matters the most is maximizing value for employees (us). Building a culture with a great level of collaboration and trust. Removing bureaucracy as much as this can be done. Because, when companies invest in their culture, their customers are happier and in return, their bottom line greatly improves. Sugata Mitra once said *"We engineered a system, so robust that it's still with us today, continuously producing identical people, for a machine that no longer exists"* 
 
-If you enjoyed this article, follow me on [<span style="font-size:larger;">**Twitter**</span>](https://twitter.com/troll_lock), where I write more about what I'm doing next and how I'm doing it.
+If you enjoyed this article, follow me on [<span style="font-size:larger;">**Twitter**</span>](https://twitter.com/marinwaves), where I write more about what I'm doing next and how I'm doing it.

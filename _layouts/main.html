@@ -4,13 +4,17 @@ layout: default
 
 <aside class="sidebar">
   <header>
+    <div class="menu">
     <div class="about">
       <div class="cover-author-image">
         <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <div class="author-name">{{site.author}}</div>
+      <li><a href="/about-me/">About me</a></li>
+      <li><a href="/my-digital-sea-garden/">My digital sea garden</a></li>
       <p>{{site.about-author}}</p>
     </div>
+  </div>
   </header> <!-- End Header -->
   <footer>
     <section class="contact">
@@ -33,7 +37,7 @@ layout: default
           <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-email %}
-        <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
+          <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
         {% endif %}
         {% if site.social-shop %}
           <li><a href="{{site.social-shop}}" target="_blank"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>

@@ -6,6 +6,7 @@ description: art and technology
 img: pirsig.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Art, Technology]
+growth: 2
 ---
 
 *"He divided the human understanding into two kinds - romantic understanding and classical understanding. Romantic understanding is inspirational, imaginative creative, and intuitive. Classical understanding proceeds by reasons and laws. Although motorcycle riding is romantic, motorcycle maintenance is purely classical."* - Robert Pirsig

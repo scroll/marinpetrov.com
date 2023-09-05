@@ -6,6 +6,7 @@ description: In this post, I will dig into the brief history of DAOs, their prom
 img: dao-banner.png
 fig-caption: # Add figcaption (optional)
 tags: [DAO, decentralization, self-management, orgs]
+growth: 3
 ---
 
 A buzzword thrown a lot these days is DAO. In this post, I will dig into the brief history of DAOs, their promises, and explore if they really help us collaborate better together. 

@@ -15,6 +15,11 @@ html {
   /* 2 */
 }
 
+@font-face {
+  font-family: 'Auge';
+  src: url("http://127.0.0.1:4000/assets/fonts/PetrovSans-Bold.otf") format('opentype'); /* path to your font file */
+}
+
 /* Sections
    ========================================================================== */
 /**
@@ -969,14 +974,14 @@ table tfoot td {
 }
 
 .about .author-name {
-  font-family: 'PT Serif', serif;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-style: italic;
   margin: 0 0 10px;
   position: relative;
   padding-bottom: 15px;
-  font-size: 16px;
-  text-transform: uppercase;
+  font-size: 20px;
   color: #333030;
-  font-weight: 700;
 }
 
 .about .author-name::after {
@@ -1162,7 +1167,9 @@ footer .copyright {
 }
 
 .post .post-content .post-title a {
-  font-family: 'PT Serif', serif;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-style: italic;
   text-decoration: none;
   color: #263959;
 }
@@ -1205,7 +1212,11 @@ a.newer-posts:hover {
 }
 
 .header-page .page-title {
-  font-weight: 400;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-style: italic;
+  text-decoration: none;
+  color: #263959;
   margin: 0 0 10px;
   line-height: 1.3;
 }
@@ -1304,6 +1315,15 @@ a.newer-posts:hover {
 
 .page-footer .page-tag a:hover {
   text-decoration: underline;
+}
+
+.growth {
+  position: relative;   
+  left: 10px;
+}
+
+.page-growth {
+  width: 50px;
 }
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */

@@ -5,6 +5,7 @@ date: 2021-06-17 13:35:20 +0300
 description: for better engagement and commitment
 img: commitment.jpg
 fig-caption: # Add figcaption (optional)
+growth: 2
 tags: [Culture, Leadership]
 ---
 

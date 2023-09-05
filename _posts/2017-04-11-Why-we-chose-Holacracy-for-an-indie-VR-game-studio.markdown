@@ -6,6 +6,7 @@ description: A short story on why we chose Holacracy for Hack and Paint # Add po
 img: holacracy-banner.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Holacracy, Management, Self-Management, VR, Games]
+growth: 2
 ---
 (*This article was originaly published on the Hack and Paint blog*)
 

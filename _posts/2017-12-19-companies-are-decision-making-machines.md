@@ -6,6 +6,7 @@ description: How decision making works in companies
 img: gears.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Holacracy, Management, Self-Management, Games, VR]
+growth: 2
 ---
 (*This article was originaly published on the Hack and Paint blog*)
 
