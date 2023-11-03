@@ -17,7 +17,7 @@
   <meta content="The title of this post is slightly clickbaity. Yet, I do believe these are the only metrics that matter for your rigging pipeline." property="og:description">
   
   
-  <meta content="http://localhost:4000/the-rigging-metrics-you-definitely-need/" property="og:url">
+  <meta content="http://localhost:4000/the-only-rigging-metrics-you-will-ever-need/" property="og:url">
   
   
   <meta content="2023-11-01T17:32:20+02:00" property="article:published_time">
@@ -48,7 +48,7 @@
   <meta name="twitter:title" content="The only rigging metrics that you will ever need">
   
   
-  <meta name="twitter:url" content="http://localhost:4000/the-rigging-metrics-you-definitely-need/">
+  <meta name="twitter:url" content="http://localhost:4000/the-only-rigging-metrics-you-will-ever-need/">
   
   
   <meta name="twitter:description" content="The title of this post is slightly clickbaity. Yet, I do believe these are the only metrics that matter for your rigging pipeline.">
@@ -149,61 +149,61 @@
           
         
       </header>
-      <p>Not many animation and VFX studios actually measure their production in terms of performance or implement any kind of metrics at all. The only “metrics” that get measured are usually deadlines for different tasks. Imagine you are driving a car, you need to reach a certain destination and the only thing that you know is the current time. You have no idea about speed, performance, how much gas you have in the tank or gps to reach your actual goal. I doubt you will ever reach your goal if you are driving blindly like that. In this post, I want to introduce you to a few metrics that will give you a very good understanding of how your rigging pipeline is performing, where you are currently and where you want to go next. I only want to talk about rigging pipeline here because that’s what my expertise is - building rigging pipelines. So this post is mostly for people who work in riggin departments or for people who oversee the whole production. There are probably other metrics you want to implement if you are a modeling supervisor or you work in another department, but this will be another post altogether.</p>
+      <p>Many animation and VFX studios surprisingly don’t measure their production in terms of performance or implement any metrics at all. Frequently, the only “metrics” that get measured are deadlines for various tasks. Imagine you’re driving a car with a goal to reach a certain destination, but the only information you have is the current time. You lack knowledge about your speed, performance, the remaining gas in your tank, or even a GPS to guide you to your goal. The chances of reaching your destination when driving blindly like this are slim. In this post, I want to introduce a few metrics that can provide a robust understanding of how your rigging pipeline is performing, where you are currently and where you want to go next. I’m focusing on the rigging pipeline here since that’s my area of expertise. So, this post is primarily for those who work in rigging departments or those who oversee entire productions. There may be other metrics you’d want to measure if you’re a modeling supervisor or you’re working in another department, but that’s a topic for another post.</p>
 
-<h2 id="why-measure-anything-at-all">Why measure anything at all</h2>
+<h2 id="the-importance-of-metrics">The importance of metrics</h2>
 
-<p>I think the answer here is pretty obvious.  In the car example above, if you are driving a car and you want to reach a certain destination, you will at least need to measure your speed and direction to where you are going. Without that, you will end up in a random place, somewhere you probably don’t want to be. The same is true for any rigging pipeline - tracking the right rigging metrics will help you evaluate the effectiveness of your rigging pipeline. They will enable you to monitor your progress — are you achieving the goals that you’ve set out? These metrics also help identify any bottlenecks and ineffectiveness in your production. Utilizing these metrics will allow you to make the necessary improvements and get the maximum return on your investments.</p>
+<p>The answer here seems fairly clear. To borrow from the car analogy, if you’re driving and wish to reach a certain destination, you’ll need to measure your speed and direction at the very least. Without that, you’d end up somewhere random, possibly somewhere you don’t want to be. The same holds true for any rigging pipeline - tracking the right metrics can help you evaluate the effectiveness of your rigging pipeline. These metrics enable you to monitor your progress — are your goals being met? They also help to identify any bottlenecks and inefficiencies in your production. Utilizing these metrics allows you to make the necessary improvements and maximize your return on investment.</p>
 
-<h2 id="ok-but-measure-what">Ok, but measure what?</h2>
+<h2 id="what-should-be-measured">What should be measured?</h2>
 
-<p>When it comes to rigging pipelines, there are four metrics that you most definitely want to measure. They are tied to the speed and stability of your rigging pipeline.</p>
+<p>When it comes to rigging pipelines, there are four metrics that are crucial. These are indicative of the speed and stability of your rigging pipeline.</p>
 
 <ul>
   <li><strong>Rig Failure Rate</strong></li>
-  <li><strong>Time to resolve issues</strong></li>
+  <li><strong>Time to Resolve Issues</strong></li>
   <li><strong>Rig Delivery Velocity</strong></li>
   <li><strong>Feedback Response Time</strong></li>
 </ul>
 
 <h2 id="rig-failure-rate">Rig Failure Rate</h2>
 
-<p>This metric is the percentage of rig publishes that are causing some issue in production that requires an immediate fix. In short - how many of your published rigs are actually broken. A low rig failure rate is desirable because the more time a team spends addressing issues in published rigs, the less time it has to deliver new rigs or improve rigs in production. It is measured as a percentage with the following formula:</p>
+<p>This metric calculates the percentage of rig publishes that cause an issue in production, requiring an immediate fix. In essence, it measures how many of your published rigs are broken.  A low rig failure rate is desirable because the more time a team spends addressing issues in published rigs, the less time it has to deliver new rigs or improve rigs in production. It is measured as a percentage with the following formula:</p>
 
-<p>(published rig failures / total publishes) x 100</p>
+<p><em>(published rig failures / total publishes) x 100</em></p>
 
-<p>This metric will show you a few things:</p>
+<p>This metric provides insights into:</p>
 <ul>
-  <li>how effective are your QA methods and practices</li>
-  <li>how stable is your rigging pipeline codebase</li>
+  <li>the effectiveness of your QA methods and practices</li>
+  <li>the stability of your rigging pipeline codebase</li>
 </ul>
 
-<p>I have noticed that effective rigging teams sit somehwere between 0% and 12% on this metric.</p>
+<p>I’ve found that effective rigging teams typically score between 0% and 12% on this metric.</p>
 
 <h2 id="time-to-resolve-issues">Time to resolve issues</h2>
 
-<p>Rig failures are inevitable, but how much time it takes you to fix one? This metrics shows the mean time for all your rig issues fixes. It is calculated by measuring the time it took from the moment a rig was discovered broken to the time it was re-published and fixed.</p>
+<p>Rig failures are inevitable, but how much time does it take for you to fix them? This metric measures the average time for all your rig issue fixes. It’s calculated by measuring the time it takes from when a rig was found to be broken to when it was republished and fixed.</p>
 
-<p>This metric will show how effective is your team at addressingn issues in production.</p>
+<p>This metric indicates how effective your team is at addressing issues in production.</p>
 
 <h2 id="rig-delivery-velocity">Rig Delivery Velocity</h2>
 
-<p>This metric measures how fast a team can deliver a rig to production. The faster a rig can be delivered from start to finish, the better. Obviously different rigs require very different time. A background biped character will take very short time to deliver, while a lead non-biped character might take much more. The way to measure this is to measure it for all rigs in a certain production or production period. Record the time a rig is started (the first rigging work file is created) to when the rig is published. If your rigging pipeline works in stages, measure this for all of your stages - this will give you a better granularity over that metric.</p>
+<p>This metric measures how quickly a team can deliver a rig to production. The faster a rig can be completed, the better. Of course, different rigs require distinct timelines. A basic biped character will take much less time to deliver than a complex, lead non-biped character. The best way to approach this is to measure it for all rigs in a certain production or production period. Record the time a rig’s creation is started (the first rigging work file is created) to when it is published. If your rigging pipeline operates in stages, measure this for all the stages, giving you a granular perspective on the metric.</p>
 
-<p>This metric will show how effective is your team at actually the only thing that matters in your team - producing rigs!</p>
+<p>This metric reflects how effective your team is at the most crucial task - producing rigs!</p>
 
 <h2 id="feedback-response-time">Feedback Response Time</h2>
-<p>This metric shows the time it takes from when a feedback is given (by a supervising animator for example) to when that feedback is implemented and a new updated version of the rig is published. You want to minimize this metric as much as possible. Measure it by recording the time a rig update based on feedback is started and when it is published to production.</p>
+<p>This metric calculates the time it takes from the receipt of feedback (from a supervising animator, for example) to when that feedback is implemented, and an updated version of the rig is published. You want to minimize this metric as much as possible. Measure it by recording the time a rig update based on feedback is started and when it is published to production.</p>
 
-<p>Measuring this will give you a pretty good understanding of:</p>
+<p>This metric gives you insights into:</p>
 <ul>
-  <li>how effective is your team at implementing animation feedback into the rigs</li>
-  <li>the ability of your rigging pipeline to actually implement such feedback</li>
+  <li>how effective your team is at incorporating animation feedback into the rigs</li>
+  <li>the adaptability of your rigging pipeline to implement such feedback</li>
 </ul>
 
 <h2 id="what-to-do-once-you-start-monitoring-those-metrics">What to do once you start monitoring those metrics</h2>
 
-<p>Once you implement these metrics you can review them at the start of every weekly meeting. You and your team would want to work together to improve them as much as possible in a <strong>continuous improvement</strong> fashion. Any initiative or project you tackle should better those metrics, not worsen them. This will allow you to have a <strong>better decision making</strong> over what is a priority and where you need to focus next. Your rig delivery velocity is improving, but there is a lot of broken rigs in production? Focus on your QA methods. It takes a lot of time to implement back feedback from the Anim Sup? Focus on the ability of your pipeline and team to deliver changes fast.</p>
+<p>After implementing these metrics, you can review them at the start of each weekly meeting. You and your team will want to continuously work together to improve these crucial metrics. Any initiative or project you undertake should aim to enhance these metrics, not weaken them. This approach will enhance the decision-making process, helping you prioritize and focus your efforts. For example, if your Rig Delivery Velocity is improving, but there are many broken rigs in production, concentrate on refining your QA methods. If too much time is spent implementing feedback from the Animation Supervisor, focus on the capacity of your pipeline and team to deliver changes faster.</p>
 
 <hr />
 
@@ -211,8 +211,8 @@
 
       <div class="page-footer">
         <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text=The only rigging metrics that you will ever need&url=http://localhost:4000/the-rigging-metrics-you-definitely-need/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
-          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/the-rigging-metrics-you-definitely-need/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://twitter.com/intent/tweet?text=The only rigging metrics that you will ever need&url=http://localhost:4000/the-only-rigging-metrics-you-will-ever-need/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/the-only-rigging-metrics-you-will-ever-need/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
         </div>
         <div class="page-tag">
           
