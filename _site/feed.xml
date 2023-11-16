@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Hello! I&apos;m Marin Petrov and this is my digital garden.</title>
+  <description>Marin Petrov&apos;s digital garden.
+</description>
+  <link>http://localhost:4000/</link>
+  <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+  <pubDate>Thu, 16 Nov 2023 11:36:34 +0200</pubDate>
+  <lastBuildDate>Thu, 16 Nov 2023 11:36:34 +0200</lastBuildDate>
+  <generator>Jekyll v4.3.2</generator>
+  
+  <item>
+    <title>The only rigging metrics that you will ever need</title>
+    <description>&lt;p&gt;Many animation and VFX studios surprisingly don’t measure their production in terms of performance or implement any metrics at all. Frequently, the only “metrics” that get measured are deadlines for various tasks. Imagine you’re driving a car with a goal to reach a certain destination, but the only information you have is the current time. You lack knowledge about your speed, performance, the remaining gas in your tank, or even a GPS to guide you to your goal. The chances of reaching your destination when driving blindly like this are slim. In this post, I want to introduce a few metrics that can provide a robust understanding of how your rigging pipeline is performing, where you are currently and where you want to go next. I’m focusing on the rigging pipeline here since that’s my area of expertise, but this concept can be applied to any department as long as it produces some kind of assets. So, this post is primarily for those who work in rigging departments or those who oversee entire productions.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-importance-of-metrics&quot;&gt;The importance of metrics&lt;/h2&gt;
+
+&lt;p&gt;The answer here seems fairly clear. To borrow from the car analogy, if you’re driving and wish to reach a certain destination, you’ll need to measure your speed and direction at the very least. Without that, you’d end up somewhere random, possibly somewhere you don’t want to be. The same holds true for any rigging pipeline - tracking the right metrics can help you evaluate the effectiveness of your rigging pipeline. These metrics enable you to monitor your progress — are your goals being met? They also help to identify any bottlenecks and inefficiencies in your production. Utilizing these metrics allows you to make the necessary improvements and maximize your return on investment.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-should-be-measured&quot;&gt;What should be measured?&lt;/h2&gt;
+
+&lt;p&gt;When it comes to rigging pipelines, there are five metrics that are crucial. These are indicative of the speed and stability of your rigging pipeline.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Delivery velocity&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Feedback response time&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Issues rate&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Time to resolve issues&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rig performance speed&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;delivery-velocity&quot;&gt;Delivery Velocity&lt;/h2&gt;
+
+&lt;p&gt;This metric measures how quickly a team can deliver a rig to production. The faster a rig can be completed, the better. Of course, different rigs require distinct timelines. A basic biped character will take much less time to deliver than a complex, lead non-biped character. The best way to approach this is to measure it for all rigs in a certain production or production period. Record the time a rig’s creation is started (the first rigging work file is created) to when it is published. If your rigging pipeline operates in stages, measure this for all the stages, giving you a granular perspective on the metric.&lt;/p&gt;
+
+&lt;p&gt;This metric reflects how effective your team is at its most crucial task - shipping rigs!&lt;/p&gt;
+
+&lt;p&gt;You can also break and separate this metric further if you have different stages of a rig - Phase1, Phase2, Phase3 etc. You can then measure how much time it takes in general to deliver a rig in each of these stages.&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback-response-time&quot;&gt;Feedback response time&lt;/h2&gt;
+&lt;p&gt;This metric calculates the time it takes from the receipt of feedback (from a supervising animator, for example) to when that feedback is implemented, and an updated version of the rig is published. You want to minimize this metric as much as possible. Measure it by recording the time a rig update based on feedback is started and when it is published to production.&lt;/p&gt;
+
+&lt;p&gt;This metric gives you insights into:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;how effective your team is at incorporating animation feedback into the rigs&lt;/li&gt;
+  &lt;li&gt;the adaptability of your rigging pipeline to implement such feedback&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rig-issues-rate&quot;&gt;Rig issues rate&lt;/h2&gt;
+
+&lt;p&gt;This metric shows the percentage of rig publishes that cause some kind of issue that requires a fix in order for the rig to be usable. In essence, it measures how many of your published rigs are broken. If the rig issues rate is lower, this means the team has more time to spend delivering new rigs or improve rigs in production. It is measured as a percentage, i.e:&lt;/p&gt;
+
+&lt;p&gt;(rig publishes with issues/all rig publishes) * 100&lt;/p&gt;
+
+&lt;p&gt;This metric provides insights into:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;the effectiveness of your QA methods and practices&lt;/li&gt;
+  &lt;li&gt;the stability of your rigging pipeline codebase&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;time-to-resolve-issues&quot;&gt;Time to resolve issues&lt;/h2&gt;
+
+&lt;p&gt;Rig failures are inevitable, but how much time does it take for you to fix them? This metric measures the average time for all your rig issue fixes. It’s calculated by measuring the time it takes from when a rig was found to be broken to when it was republished and fixed.&lt;/p&gt;
+
+&lt;p&gt;This metric indicates how effective your team is at addressing issues in production.&lt;/p&gt;
+
+&lt;h2 id=&quot;rig-performance-speed&quot;&gt;Rig performance speed&lt;/h2&gt;
+
+&lt;p&gt;Although this particular metric is not strictly measuring the rigging pipeline but rather the product of the pipeline - the actual rigs, some people convinced me to include it as well. This measures the relative performance of your rigs in terms of FPS (frames per second). The faster a rig performs in your DCC, the easier it is for animators to work on their shots and scenes. If a rig runs realtime, animators don’t even need to make playblasts of their scenes, they can just play the scene and see it in realtime. This is a huge time savings for the whole production! You can use different tools and scripts to benchmark a rig once it has been published or just before publish time. Just remember to benchmark it after your optimization steps.&lt;/p&gt;
+
+&lt;p&gt;The metric provides insight into:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;the ability of your pipeline and codebase to create fast performing rigs&lt;/li&gt;
+  &lt;li&gt;the complexity of the rigs produced&lt;/li&gt;
+  &lt;li&gt;it is a good conversation starter with anim sups about what’s needed - more features added to the rigs or better performance of the rigs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Rigging is always a balance between features and performance, but a good rigging pipeline is able to produce rigs with many features without sacrificing the performance.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-to-do-once-you-start-monitoring-those-metrics&quot;&gt;What to do once you start monitoring those metrics&lt;/h2&gt;
+
+&lt;p&gt;After implementing these metrics, you can review them at the start of each weekly meeting. You and your team will want to continuously work together to improve them. This approach will benefit your decision-making process, helping you prioritize and focus your efforts appropriately. Any initiative or project you undertake should aim to enhance these metrics, not weaken them. For example, if your delivery velocity is improving, but there are many broken rigs in production, concentrate on refining your QA methods. If too much time is spent implementing feedback from the Animation Supervisor, focus on the capacity of your pipeline and team to deliver such changes faster.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;If you are someone on a rigging leadership position, I would love to chat with you about all of this. Are you currently measuring any of these metrics? What are the current metrics of your team and how are they improving over time? Did you do something specific that affected those metrics positively? How about negatively? Reach out to marin@hey.com and drop me a mail so we can chat.&lt;/em&gt;&lt;/p&gt;
+</description>
+    <pubDate>Wed, 01 Nov 2023 17:32:20 +0200</pubDate>
+    <link>http://localhost:4000/the-only-rigging-metrics-you-will-ever-need/</link>
+    <guid isPermaLink="true">http://localhost:4000/the-only-rigging-metrics-you-will-ever-need/</guid>
+    
+    <category>rigging</category>
+    
+    <category>pipeline</category>
+    
+    <category>animation</category>
+    
+    <category>studios</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>About me</title>
+    <description>&lt;p&gt;Hi, my name is Marin Petrov. I love art, technology and people. It has always been challenging to combine all three in a single vocation, because the &lt;a href=&quot;/zen-and-the-art-of-motorcycle-maintenance/&quot;&gt;world usually tries to keep them separate&lt;/a&gt;. Even I keep them semantically separate here by using three words to describe “them”. Yet, I think “they” are all the same thing, looking at it from three different &lt;a href=&quot;https://en.wikipedia.org/wiki/Blind_men_and_an_elephant&quot;&gt;perspectives&lt;/a&gt;. Here is how they are all related. Our need to connect with people is what makes us seek and make art. &lt;a href=&quot;https://en.wikipedia.org/wiki/Technology&quot;&gt;Technology&lt;/a&gt; is just another word for “craft” or “art”. We make art and technology to connect. From the hand paintings on the walls of Lascaux. To the handshake of the “TCP/IP” protocol.  We have always made art and technology with the single human need to connect with each other.&lt;/p&gt;
+
+&lt;p&gt;Visa (Visakan Veerasamy) wrote this in his book “Introspection”:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“And you know who’s always got your back? Artists.
+Musicians. Authors. Poets. People have been making art for millennia, sometimes in the darkest
+of times. Olivier Messiaen composed “Quartet for the End of Time” while he was interred in a
+German camp during World War II. Why do they do it? They do it for you. They do it to ease
+your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I am currently working in a “product” role, facilitator and coach at &lt;a href=&quot;camplight.net&quot;&gt;Camplight&lt;/a&gt;, on designing and creating our own software products which all facilitate human collaboration.&lt;/p&gt;
+
+&lt;p&gt;I was very fortunate to have worked at one of the best animation studios in the world on features like “Ice Age”, “Rio”, “Ferdinand” and &lt;a href=&quot;https://www.imdb.com/name/nm1762343/&quot;&gt;many more&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I also co-founded a remote self-managed &lt;a href=&quot;https://www.youtube.com/watch?v=N-NWu6VcQgs&quot;&gt;VR Game Studio&lt;/a&gt; and a remote self-managed software company called &lt;a href=&quot;https://www.youtube.com/watch?v=bvo2d-8SfOo&quot;&gt;RGBNotes&lt;/a&gt;, which later merged with Nimble Collective and then acquired by Amazon AWS. The product I worked on is now part of &lt;a href=&quot;https://aws.amazon.com/nimble-studio/&quot;&gt;Amazon Nimble Studio&lt;/a&gt;. You can read more about this story &lt;a href=&quot;why-i-quit-and-started-two-companies/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;podcasts--interviews&quot;&gt;Podcasts &amp;amp; Interviews&lt;/h2&gt;
+
+&lt;p&gt;Some more interesting people than me have invited me to talk on their podcasts in the past. Here are some of the links where you can hear me ramble&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leadermorphosis.co/pages/episodes/People-from-Hack-and-Paint-on-self-management-in-a-remote-team.html&quot;&gt;Leadermorphosis - with Lisa Gill - (Podcast, English)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1aml_caSePQ&quot;&gt;The Rigging Buddies - with Miquel Campos - (Podcast, English)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://designofthings.fm/e133/&quot;&gt;The Design of things - with S. Punchev &amp;amp; A. Aladzhov - (Podcast, Bulgarian)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://podcasts.apple.com/bg/podcast/%D0%B8%D0%BC%D0%B0%D1%82-%D0%BB%D0%B8-%D0%B5%D0%BC%D0%BE%D1%86%D0%B8%D0%B8%D1%82%D0%B5-%D0%BC%D1%8F%D1%81%D1%82%D0%BE-%D0%B2-%D0%BE%D1%84%D0%B8%D1%81%D0%B0-%D1%81-%D0%B2%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B9-%D0%B8-%D0%BC%D0%B0%D1%80%D0%B8%D0%BD-%D0%BE%D1%82-camplight/id1597620624?i=1000599817814&quot;&gt;Emotions at work - (Podcast, Bulgarian)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forbesbulgaria.com/2021/02/12/%D0%BC%D0%B0%D1%80%D0%B8%D0%BD-%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2-%D0%BA%D0%B0%D1%80%D0%B8%D0%B5%D1%80%D0%B0-%D0%BA%D0%B0%D1%82%D0%BE-%D0%BD%D0%B0-%D0%BA%D0%B8%D0%BD%D0%BE/&quot;&gt;Forbes - (Interview, Bulgarian)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.riggingdojo.com/2013/06/25/epic-reworking-of-blue-sky-studios/&quot;&gt;Interview: “EPIC” Reworking of Blue Sky Studios pipeline with Marin Petrov - (Interview, English)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;guest-articles&quot;&gt;Guest Articles&lt;/h2&gt;
+
+&lt;p&gt;Guest articles I have contributed to.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://therecursive.com/how-can-teams-move-away-from-the-parent-child-relationship/&quot;&gt;Hоw cаn teams mоve аwаy frоm thе “pаrеnt-child rеlatiоnship”?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/bica-services/hr-talks-with-it-leaders-ep-9-marin-petrov-on-self-managed-teams-and-fostering-creativity-at-work-5f395746bd6d&quot;&gt;On self-management and creativity&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;publications&quot;&gt;Publications&lt;/h2&gt;
+
+&lt;p&gt;Papers I have co-authored with my excellent colleagues.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dl.acm.org/doi/10.1145/2775280.2775290&quot;&gt;Head, shoulders, knees and toes: interpreting Schulz in 3D&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+    <pubDate>Sun, 24 Sep 2023 22:02:00 +0300</pubDate>
+    <link>http://localhost:4000/about-me/</link>
+    <guid isPermaLink="true">http://localhost:4000/about-me/</guid>
+    
+    <category>biography</category>
+    
+    <category>cv</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>The story of why I quit my dream job and started two companies</title>
+    <description>&lt;p&gt;In 2016 I left my well-paid dream job in one of the best animation studios in the world, to start two companies. It was very risky, full of ups and downs, but it eventually worked out and one of the companies was acquired. This is the story of why I decided to embark on that adventure and what that journey was like.&lt;/p&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;In 1995 I watched Toy Story by Pixar and I immediately knew what I wanted to do with my life - to make animation. I was 14 at the time. I was eager, I was motivated, and self-taught the craft. Many years later, I have been part of some great VFX and Animation studios, last of which was Blue Sky Studios, where I worked from 2009 to 2016 as Character Technical Director. I had the pleasure to work on some great movies like “Ice Age”, “Rio”, “Epic”, “Peanuts”, and “Ferdinand”. It was my dream job. I had everything I wanted - an excellent salary, promotions, big bonuses, and colleagues (who were also my friends) respected me. Yet, sometime in 2015 - 2016, I decided I couldn’t do this anymore. So what was wrong?&lt;/p&gt;
+
+&lt;p&gt;I had this strange feeling at the back of my head which I couldn’t quite figure out. I was basically feeling that my motivation was slowly and steadily disappearing. It was stemming from this nagging idea, that the way we build companies today, somehow causes this dissatisfaction with work. Too much bureaucracy, too much politics, too many secrets, protocols to follow, lack of trust. Many studies that I read at the time, suggested that 90% of people working today are disengaged with work. Ninety percent! This was a number that definitely surprised me. If this was true, then why are we continuing to do what we are doing?&lt;/p&gt;
+
+&lt;p&gt;Someone said once that management is not a tree … it’s more like a television set. We invented it. It didn’t come from nature, we actually decided how to do it. And the way we are doing it hasn’t changed much in the last 100 years. We still practice ideas that came in 1910. Yet, the nature of work did change. From assembling line productions to creative work. From predictability and repeatability to uncertainty and complexity.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-nature-of-human-organizing&quot;&gt;The nature of human organizing&lt;/h2&gt;
+&lt;p&gt;What I knew about management came from what I experienced in the companies I worked at over the years. I got promoted several times over the course of my career and I just did what everyone else did when having to manage a team. Solve problems and tell the team what to do. I was the thinker and problem solver and they were the doers. But this exact pattern was what I felt was causing my dissatisfaction with work.&lt;/p&gt;
+
+&lt;p&gt;I wanted to find out why we decided to organize in such a way, where decisions flow downwards and information flows upward. By doing this, we basically treat employees as kids not capable of decision making on their own. I was interested - were there other companies that don’t conform to these management practices from the 1900s?&lt;/p&gt;
+
+&lt;h3 id=&quot;lessons-learned&quot;&gt;Lessons learned:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Extrinsic motivation (salary, bonuses, carrots, and sticks) doesn’t last. They are good in the short term, but in the long term what matters most is the intrinsic motivation (doing things for the sake of doing them)&lt;/li&gt;
+  &lt;li&gt;What drives people are three intrinsic motivators that Dan Pink describes as:
+&lt;strong&gt;Autonomy&lt;/strong&gt; - our desire to be self-directed;
+&lt;strong&gt;Mastery&lt;/strong&gt; - the urge to get better skills;
+&lt;strong&gt;Purpose&lt;/strong&gt; - the desire to do something that has meaning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;self-management&quot;&gt;Self-management&lt;/h2&gt;
+&lt;p&gt;I found out about something called “self-management” or “self-organizing”, which basically means that instead of having the usual top-down pyramidal structure we see in most companies today, the company is more “flat” and less hierarchical, there is total transparency of information (and I mean all information, even financials) salaries are more balanced and teams are self-organizing. Such companies existed since the 80s and are still very profitable. Yet, somehow they are hidden from the general public, mostly because they didn’t fit the traditional understanding of how management works.&lt;/p&gt;
+
+&lt;p&gt;And remember the three intrinsic motivators?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;autonomy - there is a lot of it, because decision making is distributed throughout the whole company and is not focused at the top.&lt;/li&gt;
+  &lt;li&gt;mastery - most of these companies track everything, practice radical candor and constant feedback and focus on constant improvement.&lt;/li&gt;
+  &lt;li&gt;purpose - these types of companies have realized that by having a greater purpose, their bottom line improves as well.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It turned out, that there is a whole new world of management practices that are more human, fairer, and more in line with what I considered a motivating company culture for the 21st century.&lt;/p&gt;
+
+&lt;h3 id=&quot;lessons-learned-1&quot;&gt;Lessons learned:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Don’t be afraid to question the status quo. Especially if the status quo is something that humanity invented. Some say don’t reinvent the wheel, but if the wheel was all we were focusing on, then there would be no wings and airplanes.&lt;/li&gt;
+  &lt;li&gt;If you are a manager, think about which company policies and practices limit the employees’ autonomy, mastery, and purpose.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;hack-and-paint-and-venture-capital&quot;&gt;“Hack and Paint” and Venture Capital&lt;/h2&gt;
+&lt;p&gt;I had already decided to leave my well-paid job and start my own company, but I had to find something that I’m passionate about, which was also in a potentially emerging market.&lt;/p&gt;
+
+&lt;p&gt;At the time I was seeing few trends emerging - &lt;strong&gt;VR&lt;/strong&gt;, &lt;strong&gt;SAAS in the cloud&lt;/strong&gt;, and &lt;strong&gt;Remote Work&lt;/strong&gt;. All three of these trends were really interesting to me and got me excited. And in 2016 I left New York with my family and we moved back to Bulgaria (where I’m from) so I can save money as much as I can and focus on making a sustainable business.&lt;/p&gt;
+
+&lt;p&gt;The VR buzz was picking up. So me and a few other ex-colleagues (from the animation and game industry) talked about building a remote VR game studio that focused on what we know best - story-driven, almost open-world games. We called the studio “Hack and Paint”. Because of the game business’ nature and how game studios’ financials work, we really needed external capital to sustain ourselves before we release our first game. We planned to raise some seed funding to build the demo of our game, get some user traction, and raise more financing to build the whole game. And our bet and others in the VR field expected that, while doing this, the VR market will grow much bigger in the next couple of years, we will get a lot of know-how in the field and we would be very well positioned once that happens. After raising our first seed round of investments, we spent several months doing prototypes for our game demo that we wanted to present at the Game Developer’s Conference in San Francisco (GDC 2018), where we could pitch to potential investors in the field.&lt;/p&gt;
+
+&lt;p&gt;But our biggest bet - that VR will grow to become a huge market in the next couple of years, didn’t materialize. All VR headset manufacturers were reporting far lower selling numbers than anyone in the industry predicted. Users weren’t growing fast enough, and in 2017 and 2018 practically no major VC invested in VR. At all. So we made our demo, we won “GDC Best in Play” with it, we had a runway to just participate in GDC that year and then we barely had money to pay an accountant to close the company down.&lt;/p&gt;
+
+&lt;p&gt;I felt bad. For some time after that, I was actually depressed. We failed to build what we wanted to build, I wasted the money and time of my friends who believed in us, we wasted our own savings and for a while, I felt like a failure. It was even hard to talk to my friends and family at the time.&lt;/p&gt;
+
+&lt;h3 id=&quot;lessons-learned-2&quot;&gt;Lessons learned:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The more you want something to happen, the more painful the failure from it is. Zen Buddhists say “Do everything with great intent and without attachment to the end result.” Now I understand why.&lt;/li&gt;
+  &lt;li&gt;You can’t predict how a market will grow in a certain time period. Our bet was that we will start when the VR market is small and there are only few players in that market. Then we will get the know-how on how to build awesome VR games, and when the market grows we will be ready. That didn’t happen. And it still hasn’t happened.&lt;/li&gt;
+  &lt;li&gt;Self-management works. We made many mistakes, but we did many things right and what was left after all, was the feeling that I have never been in a better company culture, than what we had with Hack and Paint.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bootstrapping-rgbnotescom&quot;&gt;Bootstrapping RGBNotes.com&lt;/h2&gt;
+&lt;p&gt;Then something happened. One of the co-founders of Hack and Paint was Eriks Vitolins who, a few years prior, had started this side project called “rgbnotes.com” - a platform for feedback over visual media. It was a tool, mostly geared towards remote studios, who wanted to give or receive frame by frame feedback over their animations. “Hack and Paint” was using the tool extensively to collaborate on our game, and I was also helping Eriks with writing the code-base for the platform, while also working on our game. In fact, at some point, we had the idea of merging the two companies into one, mostly because it was distracting to work on our game and also write code for RGBNotes. Our thinking was that we could be a game company that also sells SAAS software. For many different reasons we didn’t go ahead with the merge, which now I see was the right decision. Once we closed Hack and Paint, I and four other co-founders from Hack and Paint joined Eriks as co-founders of RGBNotes and decided that it’s worth focusing all our energy on making this a viable SAAS business. I mostly focused on writing code for the platform and doing sales demos to clients. For RGBNotes, since day one, we decided that it’s probably best if we just bootstrap the company, instead of raising venture capital for it. Building a bootstrapped business without external financing makes you more focused on the product because you don’t have to spend time writing pitch decks and pitching to investors, which is a full-time job in itself. At the same time, it was hard, because we had no financing at all, so we were mostly using all our revenue to just sustain the business and the four of us. Luckily, we have found a product-market fit for the platform, and we were slowly getting more and more clients. We were writing the features they were telling us they needed and it was going in the right direction.&lt;/p&gt;
+
+&lt;p&gt;One day, we were approached by another company that wanted to talk to us about a possible acquisition. We debated for over a year with the whole team whether we should do it or not. Eventually, after a year of negotiation, we agreed to the terms and signed them. Long story short, now RGBNotes is part of Amazon AWS.&lt;/p&gt;
+
+&lt;h3 id=&quot;lessons-learned-3&quot;&gt;Lessons learned:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;You never know what the future holds. If you are fixating on only one goal, you might miss other opportunities around you.&lt;/li&gt;
+  &lt;li&gt;Getting depressed by your failures is never productive. Learn from your mistakes and start something new. Stoicism is something that got me on the right track.&lt;/li&gt;
+  &lt;li&gt;Some businesses require some kind of funding, while others can be bootstrapped. Bootstrapping gives you more freedom, while funding gives you more speed. Choose appropriately.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;realizing-what-matters&quot;&gt;Realizing what matters&lt;/h2&gt;
+&lt;p&gt;After the acquisition, I decided to take some time off and think about what I learned on this journey. At the beginning, all I wanted was to work for a big and successful company, but I didn’t think about what success really means to me, so it was a stupid goal in itself. Some define success as “maximizing shareholders value” and put investors first. Others define success as “maximizing user value” and put customers first. During my time with Hack and Paint and RGBnotes, I’ve come to realize that what matters the most is maximizing value for employees (us). Building a culture with a great level of collaboration and trust. Removing bureaucracy as much as this can be done. Because, when companies invest in their culture, their customers are happier and in return, their bottom line greatly improves. Sugata Mitra once said &lt;em&gt;“We engineered a system, so robust that it’s still with us today, continuously producing identical people, for a machine that no longer exists”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you enjoyed this article, follow me on &lt;a href=&quot;https://twitter.com/marinwaves&quot;&gt;&lt;span style=&quot;font-size:larger;&quot;&gt;&lt;strong&gt;Twitter&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;, where I write more about what I’m doing next and how I’m doing it.&lt;/p&gt;
+</description>
+    <pubDate>Sun, 20 Aug 2023 13:32:20 +0300</pubDate>
+    <link>http://localhost:4000/why-i-quit-and-started-two-companies/</link>
+    <guid isPermaLink="true">http://localhost:4000/why-i-quit-and-started-two-companies/</guid>
+    
+    <category>Management</category>
+    
+    <category>Startups</category>
+    
+    <category>Culture</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>My digital sea garden</title>
+    <description>&lt;p&gt;In 2023, I had the fortune of crossing paths with &lt;a href=&quot;https://maggieappleton.com/&quot;&gt;Maggie Appleton&lt;/a&gt;, and among other things we talked about &lt;a href=&quot;https://maggieappleton.com/garden-history&quot;&gt;digital gardens&lt;/a&gt;. Though I had not stumbled upon this concept before, I found it profoundly resonant. Thank you, Maggie!&lt;/p&gt;
+
+&lt;p&gt;So, what exactly is a digital garden? To fully apprehend the concept, it’s crucial to explain why traditional blogging never really captivated me:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The format of blogs expects a polished, fully formed idea that has been meticulously edited and revised before it’s published. What if, however, I have a rough idea that’s still crystallizing in my mind that I wish to document for future reference? Almost like a personal notebook?&lt;/li&gt;
+  &lt;li&gt;Or suppose I wish to revisit and rewrite a blog post published three years ago due to my enhanced understanding. How do I articulate to my audience the growth stage of each idea: raw and undefined versus mature and evolved?&lt;/li&gt;
+  &lt;li&gt;Blog posts have timestamps, showing when the article was published. As I read my older articles, I often find them to be subpar, almost shitty. I would love the chance to rewrite them, because the person I was when I authored them differs from who I am now, just like my evolved ideas. However, that timestamp discourages such renewal. It’s as if these posts were consciously engineered to rekindle memories of my past self like some ghosts hiding in the closet.&lt;/li&gt;
+  &lt;li&gt;Blogs, in my view, are somewhat sterile. The term “blog” evokes a particular expectation. There’s little room to deviate from this standardized definition, because then it wouldn’t be a blog.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Given these reservations, I’ve almost sopped blogging in the past year or so. That was until the notion of digital gardens sparked my interest. The outcome? I transformed my blog into a digital garden, or to be more specific – a digital sea garden. Why “sea garden”? I wanted to infuse a personal touch, riffing on the meaning of my first name, which translates to “sea water”.&lt;/p&gt;
+
+&lt;p&gt;The difference with a blog is that now I can publish essays in very different stages of “growth”. I’m not waiting for the perfect idea to form - I also publish ideas that are somewhat rough. To denote the different stages of growth, I am using these three visual icons under each essay.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/1.svg&quot; alt=&quot;growing kelp&quot; /&gt; - &lt;strong&gt;growing kelp&lt;/strong&gt; - this is a very rough idea&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2.svg&quot; alt=&quot;sea garden&quot; /&gt; - &lt;strong&gt;sea garden&lt;/strong&gt; - more mature idea that I have had time to polish&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3.svg&quot; alt=&quot;coral reef&quot; /&gt; - &lt;strong&gt;coral reef&lt;/strong&gt; - an essay that have been quite complete, but which I’m also tending from time to time&lt;/p&gt;
+
+&lt;p&gt;Moreover, the dates you see on the essays now reflect the most recent date of revision or when I last tended them, rather than when they were initially published. So on the top, are the most updated and nourished articles.&lt;/p&gt;
+
+&lt;p&gt;I’m also trying to interlink a lot of other articles in my essays - both personal and from other people I find interesting, so don’t be surprised to find a lot of links in my essays.&lt;/p&gt;
+
+&lt;p&gt;And for those interested in the technology I’m using for this site - I use Jekyll to generate static files. The templates are simple liquid HTML files, and all essays are written in markdown. I host all that on Github pages.&lt;/p&gt;
+</description>
+    <pubDate>Sat, 12 Aug 2023 13:32:20 +0300</pubDate>
+    <link>http://localhost:4000/my-digital-sea-garden/</link>
+    <guid isPermaLink="true">http://localhost:4000/my-digital-sea-garden/</guid>
+    
+    <category>howto</category>
+    
+    <category>readme</category>
+    
+    <category>guide</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>How painting in watercolor helps me be a better leader</title>
+    <description>&lt;p&gt;Last year I started painting again after а 10 years pause. I used to paint a lot, but I stopped mostly because I became more interested in programming and tech and I just wanted to learn to be a better programmer and later leader. But last year, I wanted to get into painting again and I chose a medium that was foreign to me - watercolor. I’ve always admired watercolor artists, but I never had the chance or better said - the bravery to try it out. Last Christmas, I got myself a watercolor set, some nice brushes, good paper, and a Schoolism account and tried it out. Initially, the results sucked. Mostly, because I used to paint with oil and pencil and later in digital. But watercolor is just a completely different beast. So I had to unlearn everything I know about painting and start pretty much over. After a while, I started liking and enjoying what I paint. I’m still very far away from any good watercolor artist I admire out there, but it’s getting better. For the past year, I have been thinking a lot about watercolor and what it gives me and have found some tremendous benefits that came with it that I didn’t expect before I started this journey. They came as a bonus with the activity.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Watercolor is not like other mediums (oil, pencil, etc.) It is quite unpredictable. You can’t control water even if you wanted to. For people like me, who have the tendency to control the situation and hyper-analyze, this is frightening. So having the courage to let go of control and just enjoy whatever happens, is a great learning opportunity for me. It simply makes me a better leader, parent, and human being by simply being more accepting.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In watercolor, you need to be fast. If the paper gets dry, it’s over. You need to start and finish within an hour or so. This teaches me to “live in the moment” - something else, I’ve struggled with all my life. In the past, I’ve constantly looked for “what’s next”, rather than enjoying “what’s here” in front of me. A trait that has caused me weird issues with colleagues and friends in the past. Some people just can’t keep up with me and I’ve found that it’s not them that needs to hurry up, it’s me that needs to slow down and enjoy the moment.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Watercolor needs some planning, but then that plan is over the moment you start painting. You can’t really plan a watercolor painting, yet you need to in order for it to work. This is how life seems to be - we need good plans, yet nothing goes according to plan. And that’s ok&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can’t produce the same painting twice. That’s why there are no counterfeits of watercolor paintings. The learning here - accepting change and that whatever happens, happens once and that’s it. Next time it will be different.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Watercolor requires you to be brave and not hesitate. This is an especially good exercise for leaders as we are often put in front of many different and sometimes equally good paths and opportunities. Choosing one and going with it requires you to make a firm choice and act.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are some of the paintings I finished last year:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/watercolor-01.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/assets/img/watercolor-02.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/assets/img/watercolor-03.jpeg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;/assets/img/watercolor-04.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+    <pubDate>Wed, 20 Apr 2022 13:32:20 +0300</pubDate>
+    <link>http://localhost:4000/watercolor-better-leader/</link>
+    <guid isPermaLink="true">http://localhost:4000/watercolor-better-leader/</guid>
+    
+    <category>painting</category>
+    
+    <category>watercolor</category>
+    
+    <category>leadership</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>DAOs and the nature of human collaboration</title>
+    <description>&lt;p&gt;A buzzword thrown a lot these days is DAO. In this post, I will dig into the brief history of DAOs, their promises, and explore if they really help us collaborate better together.&lt;/p&gt;
+
+&lt;p&gt;What is a DAO in the first place? This &lt;a href=&quot;https://en.wikipedia.org/wiki/Decentralized_autonomous_organization&quot;&gt;Wikipedia article&lt;/a&gt; goes into detail, but in general, it is an organization represented by a computer program that is transparent and not influenced by a central authority, thus not requiring trust in any organization or any of the other participants in the DAO. Instead of company bylaws, you have a computer code that governs the company. I believe one of the reasons why DAOs are getting so much attention these days is because people start to identify more and more with the values of “transparency”, “decentralization” and “autonomy” in the context of human collaboration. These are great values for sure. Initially, I got involved in DAOs because of the promises that DAOs make. But let’s look at how exactly DAOs try to commit to those values and what processes they implement in order to pursue them.&lt;/p&gt;
+
+&lt;h2 id=&quot;transparency&quot;&gt;Transparency&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/transparent-people.jpeg&quot; alt=&quot;Photo by Anh Tuan To on Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the most important ingredients for successful collaboration in companies and groups is transparency. Too many times I have argued with higher management that there is not enough transparency in the organizations I’ve been part of. The lack of transparency robs people of the ability to understand the context and the big picture. It is not enough to say what needs to be done. People need to know why it needs to be done. They need to see the data behind the decisions being made. Successful, well-working companies make the data available to everyone in the company. Even financial data, which is usually taboo in many organizations is freely available on dashboards for everyone to analyze and see for themselves. And the lack of transparency inevitably leads to disengagement from work. But how DAOs solve this exactly? By making all transactions in the DAO public and making the computer code that governs the DAO open-source.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, this misses the point. By a lot.
+There are very few people who can read and understand code and especially the code that makes the DAO possible. If you are a programmer you might be one of those people, but the majority of people on this planet aren’t. So the claim that making a computer code open-source will somehow make the company rules transparent is out of touch with reality. On top of that, I would argue that not even the people that write the code themselves are fully aware of what the code can do. This was the case with the first DAO that was built on top of the Ethereum blockchain, called &lt;a href=&quot;https://en.wikipedia.org/wiki/The_DAO_(organization)&quot;&gt;“The DAO”&lt;/a&gt;. (Disclaimer: This was the first and only DAO I have been part of.) The DAO launched on April 30 2016 and very soon raised US$150 million, from more than 11,000 investors. In May, there was a paper published that showed a number of vulnerabilities in the code of The DAO. Several researchers after that pointed to the same vulnerabilities and by June 14th, fixes have been proposed and were waiting to be approved by the members of the DAO. Three days later, these same vulnerabilities were being exploited by a “hacker” and The DAO was drained with 3.6 million Ether - around a third of the 11.5 million Ether that had been committed to The DAO - valued at the time at around $50M (you can do the calculations how much is that in today’s ETH price). So to reiterate why open source is not equal to transparency at all - 11,000 people subscribed to be investors in the company. The code of the DAO was available to all of them to read. The most clever minds in the blockchain world wrote that code. Yet, the code had vulnerabilities, which led to the “hack”. So the claim that just open-sourcing a computer code is enough to provide transparency to how exactly that code works is extremely naive. You can’t possibly know how the code works, because it is code! And code by its very nature has bugs and side effects that not even the creators of the code can predict. Some people even said that the “hack” was not a hack at all, because the person that exploited the vulnerabilities in the code used part of it that all participants in the DAO voluntarily agreed to use. Remember - there was no legal contract that was governing the DAO. The code itself was that contract. So ethics aside, the “hack” (and this is why I am using quotes around the word here) was not really a hack. It was simply someone using the code as it was written and agreed upon by everyone else. By the way, while I was writing this blog post, &lt;a href=&quot;https://www.vice.com/en/article/v7dv4a/hacked-cryptocurrency-platform-begs-hacker-to-please-return-dollar119-million&quot;&gt;another DAO got hacked&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;decentralization-autonomy-and-self-management&quot;&gt;Decentralization, autonomy, and self-management&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/threads.jpeg&quot; alt=&quot;Photo by Omar Flores on Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;DAOs promote autonomy, decentralization, and self-management. Again, these are great processes and values to have in an organization. Daniel Pink, in his book &lt;a href=&quot;https://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805&quot;&gt;“Drive”&lt;/a&gt;, introduced autonomy, together with mastery, and purpose as the main intrinsic motivational factors. In other words, people seek autonomy in their work. Without autonomy, we feel micromanaged and we quickly lose intrinsic motivation. DAOs are designed in such a way, that they give full autonomy to their participants. In DAOs no single person or entity can give you orders about what to do. When something important needs to be decided, everyone casts their vote on a proposal and the proposal is either accepted or declined. Everyone has an equal say. Everything is decentralized. Everything is great. But in the case of The DAO above, you can notice something strange - almost a month has passed since the vulnerabilities in the code were discovered and the time that the hack actually happened. There was even a proposal to fix those vulnerabilities a few days prior to the attack, but the proposal never got accepted. Why is that? Well, simply because part of the design of any DAO is not allowing any single individual to make changes to how a DAO (and respectively the code) works. The only way to change the rules of the DAO is to make a proposal, wait for the majority of the users in the DAO to cast their votes and then the proposal can either be approved or declined and the changes can either go into effect or not. This as you can see can literally take months and years. And here, again DAOs miss the point of what “decentralization” and “autonomy” actually mean. Anyone involved in self-management will tell you that consensus is probably the worst possible way to decide something as a group. Mostly because it is ineffective in terms of speed - it is extremely slow, and it also produces mediocre results.  When speed is needed, &lt;a href=&quot;https://thedecider.app/&quot;&gt;there are other, better ways for autonomous groups to decide together&lt;/a&gt;. And people have been practicing &lt;a href=&quot;https://en.wikipedia.org/wiki/Sociocracy&quot;&gt;some of these methods&lt;/a&gt; for many years now. Also, when we work in companies, we need to change the processes and agreements of the company almost on a daily basis. This happens all the time. Does an agreement need to be improved? No problem - anyone can propose a change and everyone else can consent to that change. This is one of the best things about self-managing companies - their ability to evolve and grow steered by the input of anyone in the company. The easier it is to change these agreements, the easier it is for the company to adapt. But in DAOs this is extremely slow and sometimes even impossible. Imagine having to wait months and years in order to change a simple agreement, because the agreement is the code and the code is the agreement. And to change the code… well… you are out of luck here.&lt;/p&gt;
+
+&lt;h2 id=&quot;trust&quot;&gt;Trust&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/hands-collab.jpeg&quot; alt=&quot;Photo by Rineshkumar Ghirao on Unsplash&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, let’s talk about trust in the context of human collaboration. DAOs also claim that they are “trustless” organizations. By eliminating the need for trust through blockchain and crypto protocols, we don’t need to trust any single party in the DAO. But unfortunately, trust is the basis of all human collaboration. Claiming that we don’t need trust, just because the blockchain protocols don’t require it is like saying “you don’t need to floss, because no law requires it”.  And I completely understand why people wish this was true. Trust is messy. Trust is hard. Trust can be painful when we lose it. Trust is invisible and can’t be measured. To trust someone means to be &lt;a href=&quot;https://www.amazon.com/The-Power-of-Vulnerability-audiobook/dp/B00D1Z9RFU&quot;&gt;vulnerable&lt;/a&gt;. But sweeping it under the rug, hoping that it won’t be needed for group collaboration completely ignores how human collaboration actually happens in the first place. In the “&lt;a href=&quot;https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756&quot;&gt;Five dysfunctions of a team&lt;/a&gt;” Lencioni says that the absence of trust is the main dysfunction in any team and it is at the base of his pyramid of dysfunctions. Without trust, there is no collaboration at all.&lt;/p&gt;
+
+&lt;p&gt;So what exactly DAOs are good for and what can we get from them.&lt;/p&gt;
+
+&lt;p&gt;I above all should be really into DAOs. And in fact, I was because DAOs were the epiphany of everything I believed in - the perfect mix of technology and decentralized self-managed companies. But my views changed once I experienced how DAOs work in practice.
+When it comes to human collaboration, I am skeptical that DAOs solve something that can’t be quite easily solved otherwise. Self-managing companies which are autonomous and decentralized &lt;a href=&quot;https://www.youtube.com/watch?v=gcS04BI2sbk&quot;&gt;have existed for decades&lt;/a&gt; without the need for any special technology behind them. Cooperatives, which are also autonomous decentralized organizations have existed for centuries without the need for blockchains. We tend to believe that every world or human problem can be solved with technology nowadays, but unfortunately, some problems can’t. Trying to remove the messy parts of being a human by using computer code, blockchains and crypto doesn’t really work. And this is because human collaboration is above all… human.&lt;/p&gt;
+</description>
+    <pubDate>Wed, 08 Dec 2021 12:32:20 +0200</pubDate>
+    <link>http://localhost:4000/DAOs-human-collaboration/</link>
+    <guid isPermaLink="true">http://localhost:4000/DAOs-human-collaboration/</guid>
+    
+    <category>DAO</category>
+    
+    <category>decentralization</category>
+    
+    <category>self-management</category>
+    
+    <category>orgs</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>Why all animation studios have the same org chart</title>
+    <description>&lt;p&gt;I posted this question on Twitter the other day:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/twitter-studios-orgchart.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But it is something that has been bugging me for many years now. Why do all studios (animation studios in this case), have the same org chart. Of course, there are always some minor differences, but I’m talking about the big picture here. Departments. Head of departments. Project managers. Different seniority levels like “junior” and “senior” and so on. If you have worked in one it is like you have worked in all of them. Where did this structure come from and why are we all using it? It would make sense if this particular structure was perfected for years and it naturally evolved over the years AND if all studios are producing the same kind of projects. But that’s not the case. I haven’t seen this structure evolving much if not at all. And what’s even more bizarre is that even new studios that are started today are organized similarly, regardless of the actual work they do. Big studios, small studios, studios working on series or commercials or feature film productions, studios in Africa, studios in Europe, studios on all continents. It all feels like a copy of itself.&lt;/p&gt;
+
+&lt;p&gt;Just to be clear, I’m not saying that there is something wrong with this structure. If it works, then let’s use it. But it kind of feels to me that we are not even asking or discussing the questions above. It is the same as the QUERTY keyboard layout. They were invented almost 200 years ago to solve a mechanical problem, yet we are still using them, even though they might be more awkward and painful than a Dvorak layout for example. I’m not advocating that we should all suddenly switch to Dvorak. What I’m trying to do here is to just point out that this is something we collectively invented and that maybe other even better alternatives might exist. And to not talk blindly here, I will give an example with one very particular part of this structure - one in which I have been involved for years and give you some alternatives to at least think about. Here is how characters are created in animated movies (not including hair, cloth, shading, etc. for simplification):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/orgchart-01.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The yellow boxes are different departments. A character is first established in the Story, then the Art department creates a design for it. The design is taken by the Modeling department and a 3D model is created. Then Rigging takes that model and creates a rig for it, which then Animation can use to animate shots with. You can see how nice and sequential everything is. The downside is it rarely works smoothly like that even though in theory, that’s what this org chart is supposed to do. Here is what happens on a daily basis in reality:&lt;/p&gt;
+
+&lt;p&gt;A rig is broken in one of the Animation shots. A mail thread or Jira ticket is created for the issue. Rigging investigates it and finds out it is a problem with the model. Sends the issue back to Modeling. Modeling fixes it and sends it to Rigging, Rigging updates the rig with the new model and publishes a new version of the rig which then Animation can use to fix their issue. First down the chain, then up the chain. When other departments are involved like character sim, hair, and shading, then the chain is even longer. 
+Rigging starts working on a new character and finds out the proportions of the arms are not going to work for Animation’s purposes. The issue gets discussed in a number of meetings with the Modeling and Art department which they agree to fix by asking the Art department to create an updated design for it. The design is updated, the model is updated, the rig is now using a new model and Animation is happy.
+Art creates an amazing design for one of the characters. It gets modeled. Then rigging takes the model and spends weeks trying to come up with some solution of a crazy armor piece on the shoulder that breaks every time Animation does something with the rig.&lt;/p&gt;
+
+&lt;p&gt;I have seen some studios trying to resolve these issues by doing some minor tweaks to this structure. For example, Pixar is known for merging the Modeling and Rigging departments into one (at least when characters are concerned). So instead of two yellow boxes, you have one yellow box in their place. Other studios are adding some additional roles between the yellow boxes that need to take care of some of these issues. A role that takes the model before rigging and makes sure it meets the animation and rigging requirements. Some other studios are better at collaboration between departments and spend more time iterating over the deliverables before they are delivered to the next yellow box. But this often doesn’t fix the actual problem, which is that the structure above is the culprit and causes many undesirable and less visible side-effects:&lt;/p&gt;
+
+&lt;p&gt;Problem ownership. Because all the yellow boxes are a bit isolated and self-contained, it is hard for someone to fully own the problems when they arise. To be honest, in some studios the departments actually feel like different small studios operating inside the big studio. You will often hear sentences start with the word “they” when something is broken. The issue is often kicked from one mail thread to another mail thread and from one yellow box to another yellow box until an “owner” of the problem is found. 
+Trying to synchronize work that way from a Project Manager’s perspective feels a lot like playing Tetris with Gantt charts. Work needs to be reshuffled in order to make space for fixes, which in turn slows down other work and other departments, and so on. 
+So the time to deliver goes up and throughput goes down. 
+Project Managers become micromanagers. “I know you need to work on character A, but can you squeeze in fixes for character B as it is needed by tomorrow?” 
+This in turn creates frustrated and disengaged artists and morale go down. Remember - autonomy, mastery, and purpose. 
+When autonomy is taken away, artists will leave the company. Or worse - they will stay but feel disengaged from the actual work.&lt;br /&gt;
+When artists feel disengaged from work, innovation suffers, and mediocrity reigns.&lt;/p&gt;
+
+&lt;p&gt;It is a self-reinforcing loop. And like all self-reinforcing loops, changing one variable in the system can lead to either instability or stability. Imagine instead a different structure. One where instead of having different departments working on the same character asset, we minimize the number of dependencies to the minimum. So for each character, we have a team that handles it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/orgchart-02.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This team consists of a Designer, Modeler, Rigger, Animator, and if needed - a Character Sim artist, and so on. The team is responsible for this character from start to finish. When a fix is needed, the team handles it. Give full autonomy to the team to manage themselves and find the best solution in any given moment without much politics and Tetris playing. Scheduling between the team members is done internally by the team, no need for a coordinator to micromanage them. Needless to say, the team can work on several assets at the same time as well, but it is up to them to decide how to best do that.&lt;/p&gt;
+
+&lt;p&gt;This is also a simple test that you can try on any of the characters your studio produces and see how it works for you. If done properly, I’m positive the effects would be noticable.&lt;/p&gt;
+
+</description>
+    <pubDate>Mon, 05 Jul 2021 13:32:20 +0300</pubDate>
+    <link>http://localhost:4000/why-all-studios-have-same-org-chart/</link>
+    <guid isPermaLink="true">http://localhost:4000/why-all-studios-have-same-org-chart/</guid>
+    
+    <category>Management</category>
+    
+    <category>Studio</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>Rolling out processes in your company</title>
+    <description>&lt;p&gt;You have probably experienced this at some point in your career. Someone (usually at a senior position) decides that something can be improved and rolls out a new process by introducing it to the company and your team. It sometimes goes together with a “big announcement” in the common area of your office or in your “general” slack channel. The announcement sounds something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Management has decided that we will start using Confluence to document all our internal software tools.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;How does that feel when you hear it? You are probably feeling the urge to ask the very valid question “Why?”. That’s because announcements like these do two things - they don’t clarify the “why” and they don’t include you in the decision. They simply tell you what you need to do and how exactly you should be doing it. You probably feel a bit like a mouse in a lab being experimented on. Even if you ask questions for clarification’s sake, the decision has already been made so you can’t really change anything about it. And although it sounds like a very straightforward and fast way to change something in your company (top-down decision making) it actually takes much longer to do that. It creates compliance and what you want is commitment. Consider another approach.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“For several months now, we have noticed that we are creating a large number of our own software tools to help us in our daily work. It feels like we have reached a point where we need to be documenting how those tools work, otherwise, we will soon run into a problem where nobody knows how something is supposed to function or why it was created in the first place.&lt;/em&gt; &lt;strong&gt;[this part explains the problem]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Because of this, we decided to start documenting all our internal tools. We considered few different software applications for that and tested them, but we felt that Confluence meets our needs the best.&lt;/em&gt; &lt;strong&gt;[this part proposes a solution]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;We know that this approach will take us more time than usual to do our daily work because apart from writing code, we will also need to be vigilant and write the documentation for that code.&lt;/em&gt; &lt;strong&gt;[this part describes what pitfalls we might run into and what to expect]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;So we should be more patient with each other while doing this.&lt;/em&gt; &lt;strong&gt;[possible solutions for those pitfalls]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In a few months, we will check how the initiative is going and decide if we want to continue with it or change to some other solution.”&lt;/em&gt; &lt;strong&gt;[some deadline for when we can review this decision]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can immediately see the “Why” which is a huge difference right away. The message is now much more clear because it shows why something is a problem and why it needs to be solved. But even now, you can still get into non-commitment mode, simply because the decision was already made. In order to get the maximum commitment from your company and team, consider this message:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“For several months now, we have noticed that we are creating a large number of our own software tools to help us in our daily work. It feels like we have reached a point where we need to be documenting how those tools work, otherwise, we will soon run into a problem where nobody knows how something is supposed to function or why it was created in the first place.&lt;/em&gt; &lt;strong&gt;[this part explains the problem]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Because of this, we decided to start documenting all our internal tools. We considered few different software applications for that and tested them, but we felt that Confluence meets our needs the best.&lt;/em&gt; &lt;strong&gt;[this part proposes a solution]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;We know that this approach will take us more time than usual to do our daily work because apart from writing code, we will also need to be vigilant and write the documentation for that code.&lt;/em&gt; &lt;strong&gt;[this part describes what pitfalls we might run into and what to expect]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;So we should be more patient with each other while doing this.&lt;/em&gt; &lt;strong&gt;[possible solutions for those pitfalls]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In a few months, we will check how the initiative is going and decide if we want to continue with it or change to some other solution.&lt;/em&gt; &lt;strong&gt;[some deadline for when we can review this decision]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Please ask clarifying questions and comment on the proposal with possible ways to improve it.”&lt;/em&gt; &lt;strong&gt;[invite others to be part of the decision]&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The only difference is the last sentence. Apart from explaining why something is a problem and what solutions you propose, you also make an invitation for participation in the decision-making process. At first glance, this feels like it will take much longer, but in reality, the first approach, will drag the process for months and years, and even then, you might still not have a real commitment from everyone, but rather rely on compliance. This last approach creates a really strong commitment from everyone because everyone that is affected by the decision can actually steer the decision and improve upon it.&lt;/p&gt;
+
+&lt;p&gt;So describe your “Whys” and invite others to participate in the decisions.&lt;/p&gt;
+</description>
+    <pubDate>Thu, 17 Jun 2021 13:35:20 +0300</pubDate>
+    <link>http://localhost:4000/rolling-processes/</link>
+    <guid isPermaLink="true">http://localhost:4000/rolling-processes/</guid>
+    
+    <category>Culture</category>
+    
+    <category>Leadership</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>Zen and the art of motorcycle maintenance.</title>
+    <description>&lt;p&gt;&lt;em&gt;“He divided the human understanding into two kinds - romantic understanding and classical understanding. Romantic understanding is inspirational, imaginative creative, and intuitive. Classical understanding proceeds by reasons and laws. Although motorcycle riding is romantic, motorcycle maintenance is purely classical.”&lt;/em&gt; - Robert Pirsig&lt;/p&gt;
+
+&lt;p&gt;There is something that has been bugging me when I teach rigging and animation to students. It is straightforward to explain the technical aspects of this visual art, for example, the interface of the 3D engine, or which button to press, or which checkbox to check. Robert Pirsig calls this a “classical” understanding of the world. It is a bit like motorcycle maintenance. On the other hand, there is also a “romantic” understanding of the world, which includes why a specific painting is beautiful or why a character pose is appealing. My students have a hard time understanding why something is beautiful or appealing because they usually ask me to explain this with classical methods. Classical methods of understanding include logic and thus, when something can’t be logically explained, it’s hard or sometimes impossible to understand. “If you can’t measure it, it doesn’t exist”. Although we can use classical methods to explain romantic objects, for example, I can tell them that the rule of thirds works better in one painting vs another, or we can measure the exact RGB colors in the shadows of the painting and observe that they are more “warm” than “cold”, this is usually not the right approach when judging romantic objects. The right approach here is to use romantic understanding, which feels more like motorcycle riding. It includes intuition and feeling about things. If a painting has great composition and a choice of colors, it can still be boring and dull.&lt;/p&gt;
+
+&lt;p&gt;For the longest time, I have been struggling to explain these ideas and wondering how best to approach teaching “beauty”. The struggle exists because we are living in a world, especially after the industrial revolution, that is very classical. By living in this world full of technology, we train ourselves to use our classical understanding, but our romantic understanding of the world is left mostly untrained. Even I as a teacher am trying to sometimes explain romantic objects with classical methods, and this is usually unproductive, the same way it is unproductive to measure beauty and love.&lt;/p&gt;
+
+&lt;p&gt;Recently I started talking to my students about these two ways of seeing the world and that the only way for us to get better at the romantic side of things, is to simply take the time for training our minds with romantic methods. The ancient Greeks used the same word for technology and art, believing that there is no difference between the two, so they trained themselves in both classical and romantic methods of understanding. In our time and world, if all our lives, we have been trying to measure, judge, divide and compare, we need to spend an equal amount of time training ourselves to feel, imagine, sense, and love.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“If the world lived by those ideas, then they would all be grooving along with every beautiful and useful thing we touched and saw. Because the human being that created those things would have made them with the inner peace that comes to us all when the world of subject and object, me and you, romantic and classical, then and now, outside and inside simply fades away into the oneness.”&lt;/em&gt;&lt;/p&gt;
+</description>
+    <pubDate>Fri, 30 Apr 2021 13:32:20 +0300</pubDate>
+    <link>http://localhost:4000/zen-and-the-art-of-motorcycle-maintenance/</link>
+    <guid isPermaLink="true">http://localhost:4000/zen-and-the-art-of-motorcycle-maintenance/</guid>
+    
+    <category>Art</category>
+    
+    <category>Technology</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>Should you serialize your rigging data</title>
+    <description>&lt;p&gt;This blog post is more about rigging pipeline patterns rather than how to actually do rig data serialization. For the latter, there are multiple articles on the subject and we are not going to discuss it here. So let’s talk about one such rigging pipeline pattern.&lt;/p&gt;
+
+&lt;p&gt;Before we dive in to explore it, let’s talk about a few requirements first. Regardless of what type of studio you work at - VFX, Feature Animation, or Games, it is almost certain that you probably have the requirement to rebuild your rigs. This is mostly a production requirement - if you want to stay competitive you don’t want to lose time and build your rigs by hand from scratch any time the production requirements for that rig change. Most probably you have some kind of framework or modular rigging system that does this for you. And let’s face it - rig requirements change constantly throughout the production so being able to push a button and rebuild a rig after the requirements changed is the most logical step. But being involved in multiple studios and pipelines during the years I have observed two patterns for doing that.&lt;/p&gt;
+
+&lt;p&gt;One we will call “rig data serialization” or RDS for short. This is a great pattern because it allows you to write to disk or a database any deformer data you might have in your rig asset - this includes but is not limited to skinning and weights data, deformer weights, blendshape data, pose reader configuration, etc.,  and then rebuild your animation rig without worrying about losing any of this data.  It is great because you are not confined to the limits of your DCC to store that data. You can back it up, share it with other team members, import it in other software packages, lay the groundwork for rig variants pipeline and it allows for something I haven’t seen employed much - allowing multiple rig artists to work on the same asset without stepping on each other’s toes. That said, this also comes with a cost. And unless you are Disney, Blizzard, or any other big studio that can afford to do this, you need to most probably take this into consideration when you design your rigging pipeline. Here are just some of the costs of going that route:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Writing and supporting exporters/importers for any of this data. Nowadays it’s quite easy to just use JSON (plain text) or proto buffers(binary)  to store this in some way, but you have to be ready to support the tools especially when the DCC updates and your tools end up being broken.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Backward compatibility. Making sure you can import this data in newer versions of your DCC is actually important. This sometimes can be extremely tricky unless you are using protobuffers which avoids this issue.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Syncing up the data of your rig with the rig itself. Every time you decouple some data, you also need to make sure you and someone else from your team can couple it back the same way it was before. This means making sure that you are actually importing the correct and newest data and not some older version of it from another asset. And that another rig artist can actually assemble a rig made by someone else.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Making sure that your data is importable even after you have changed some of the rig requirements - for example, what happens if you exported your skinning weights data, but your joints change names, you delete some joints or you add some joints? Can you make sure your pipeline supports these very common cases?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sometimes, you might need a tool to view, compare (diff), and maybe manipulate the data you serialize externally. These are another set of tools to write, and support, just to be able to do that.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Making sure that you write and support all the additional steps in your rigging framework that import/rebuild your deformation data.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Making sure even junior artists can export/import this data. Too often rigging frameworks require artists to write and script some logic in something like a post-build step in order to import back their deformer stack data. But not all rig artists can script or are comfortable doing so.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So if the RDS pattern works for big studios it should most certainly work for small studios too, right? Well, the truth is usually quite the opposite. Patterns that work for big studios most probably are quite harmful for small or medium-sized ones. When deciding what patterns make sense for my team, my approach usually has been to step back and look at the requirements again and what we are actually trying to achieve here. In the case of RDS, there might be many considerations about using it, and if you don’t have another choice, it’s a great pattern. But most studios actually do have a choice and if the only thing we are considering is being able to rebuild a rig when the requirements for the rig change, then there is a simpler approach.&lt;/p&gt;
+
+&lt;p&gt;One famous pattern that all programmers know and love is “minimize your dependencies”. In the case of a rig asset, the dependencies are all the data that makes the rig asset. The more you minimize them, the easier it is to support the rig and the pipeline itself. Especially if you don’t have the luxury to work in a 2000 people studio. There are usually two cases where we want to rebuild a rig:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The animation control rig requirements change. This happens when there is a request from the animation department to add or remove (although I have never experienced the latter) functionality.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The underlying model changes in some way. This can also include topology change.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let’s examine both cases.&lt;/p&gt;
+
+&lt;p&gt;In the first case, a change is requested to the control rig. Here, the only thing that actually needs to change is the control rig logic and behavior. We don’t need to update anything in the deformer stack. In this case you can treat the control rig and deformer stack separately and design your pipeline in such a way where it allows you to rebuild your rig without deleting your deformers. And I would argue that the best format for your deformer data is not some JSON or proto buffer sitting on your hard drive, but actually the DCC scene itself! What better format for your skinning data than the skinning deformer in your scene? It also comes with a full-fledged interface for debugging it - like skinning tools, API for accessing and manipulating the data, etc. If you need to make an exporter and viewer of your data that complex - you should be quite ready to support such a development overhead. There is no real need to export all the deformation data, delete the rig, rebuild the rig, re-import the deformation data when the only thing that needs changing doesn’t even affect the deformation stack in the first place. You will save yourself a lot of headaches if you can just rebuild the control rig and leave the deformation data in the scene itself. In fact, I can assure you that you can even do the same thing in the second use case as well, even when you need to accommodate a topology change in the geometry. An easy solution to this is if you import the updated model in your DCC, transfer all the deformers to the new geometry, and delete/rebuild the rig for the new geometry. Again, there is no real need to leave the scene or export your deformers externally.&lt;/p&gt;
+
+&lt;p&gt;The biggest benefit that comes with this approach is that individual artists can work on rigs without the need for someone else from the team to step up and fix a broken exporter, debug why some data that was exported just one version ago is no longer importable and so on. It makes the rigging pipeline much easier to support. It doesn’t require a whole team to support all the infrastructure that comes with rig data serialization.&lt;/p&gt;
+
+&lt;p&gt;So are you a small team or a big team? If you are a small team, then consider rebuilding your rigs without serializing your deformer data.&lt;/p&gt;
+</description>
+    <pubDate>Sun, 31 May 2020 13:32:20 +0300</pubDate>
+    <link>http://localhost:4000/serializing-rigging-data-or-not/</link>
+    <guid isPermaLink="true">http://localhost:4000/serializing-rigging-data-or-not/</guid>
+    
+    <category>Rigging</category>
+    
+    <category>Pipeline</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>Rewards, Punishments, and Cabbage</title>
+    <description>&lt;p&gt;Yesterday we had an argument with my wife. We started mildly, then it became
+more heated, and then it quickly escalated because we were bringing in different
+issues in the conversations one after the other, blaming each other for all
+kinds of stuff that didn’t even have anything to do with the original
+conversation! And I kid you not, we originally started arguing over a cabbage. A
+cabbage!!! Yeah, I know you are smiling and laughing, but you have been in this
+situation before. I know, because we all have. Welcome to the club.&lt;/p&gt;
+
+&lt;p&gt;So I had a day to recover from the cabbage conversation. I started thinking why
+a small issue around cabbage (and you can substitute “cabbage” with
+“toothpaste”, “dishes”, “toilet seat position”, etc.) can lead to such a heated
+debate about everything else. Here is why. It affects how we work in our work
+environment, how we interact with our teammates, with our family and loved ones,
+it affects our whole life.&lt;/p&gt;
+
+&lt;p&gt;When someone accuses us of something, we interpret this as an attack and
+accusation, we raise our guards and try to defend ourselves. It’s quite natural.
+So when someone attacks us or blames us, what do we do? We attack back! And we
+go into this neverending spiral of the game called “Who is right”. “It’s a game
+where everybody loses” — says &lt;a href=&quot;https://www.youtube.com/watch?v=l7TONauJGfc&quot;&gt;Marshall
+Rosenberg&lt;/a&gt;. So why our default
+reaction as humans is to return the attack in the first place. Because since
+very young we have been thought to do so. The whole society does something very
+sinister and doesn’t even realize it. When we are little we are told to
+“behave”. If we don’t behave, we get punished. If we behave, we get rewarded.
+Then we go to schools where if you get the right answer, you are rewarded. If
+you get the wrong answer, you are punished. Then we go to work. The same thing —
+you perform well — a bonus. You don’t perform well — no bonus. Punishments and
+rewards. Likes and dislikes. All day, every day. That’s how we are raised,
+that’s what we are taught, so when someone is wrong — what do we do? Yes, we
+punish him for being wrong. What do we do with the guy that doesn’t signal a
+left turn with his car in front of us? We punish him with a middle finger. Why?
+Because he’s wrong. And we are right.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/medals.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To show you how engraved this idea of punishments and rewards is in our daily
+lives and especially in our corporate environments, I will tell you another
+story. There was a really nice company I was working for, but it had some issues
+around teamwork and disengagement. To battle those issues the management team
+decided to implement a process that each department had to adopt. Each month,
+the best-performing employee of that department is given a Pink Bunny. No, not a
+real one, just a plush toy. The employee that received the Bunny the previous
+month nominates the person that will receive the Bunny in the current month and
+so on. Basically, we were told that we will rotate the ownership of the Bunny
+each month. If you think that this process strangely resembles “The employee of
+the month” photos of bored employees that you see hanging on the walls of some
+big old corporations, then you are not alone in thinking that. Here is what this
+process actually achieved. We were having our department meeting and someone had
+to be awarded the Pink Bunny for the first time. One of our best teammates
+received it, it was kind of obvious that he will get it because he really is a
+smart and great guy. But the air in the room felt very awkward that time. The
+whole room clapped for the winner, but I can guarantee you — everyone thought to
+themselves, even for a split second — “Why it wasn’t me?” “Am I not good
+enough?”, “What should I do to get it next month?”, “I thought my contributions
+to the team are equally relevant”. Because it doesn’t matter if it’s a big fat
+check bonus or a Pink Bunny. We interpret this as a reward for behavior. And if
+you think in this situation there are no punishments so employees shouldn’t feel
+bad, then think about how would you feel if you don’t receive a reward. You feel
+punished for not having received the reward. &lt;a href=&quot;https://www.amazon.com/Punished-Rewards-Trouble-Incentive-Praise/dp/0618001816&quot;&gt;Rewards are just the opposite side
+of the Punishment
+coin&lt;/a&gt;.
+And it gets even worse — the behavioral reward is individual. It doesn’t reward
+the whole team for an achievement, it rewards a single individual. Who in their
+right mind will implement such a process to combat the disengagement from
+teamwork and individualism in a company? That’s like adding oil to the fire. Not
+only this will not fix the teamwork problems, it will actually worsen them.
+Needless to say, this Pink Bunny initiative didn’t last for very long.&lt;/p&gt;
+
+&lt;p&gt;As you see, if we are taught the same pattern since very little, it will be
+difficult to do something else, because it is really engraved in our default
+behavior. What Marshall Rosenberg teaches in “Nonviolent Communication” is that
+to get out of this vicious cycle, we need to start thinking in terms of feelings
+and needs. The same goes for team behaviors. If we want the team we manage to do
+something, the wrong way to go about it is to implement some rewards and
+punishment program. The right way to go about it is to tell the team what we
+actually want from them. Sounds very obvious, but believe me, it’s harder than
+it seems. Too often team leaders are either “too nice” — they don’t tell it as
+it is in fear of hurting someone’s feelings or “too demanding” — not asking for
+requests, but making demands. And what is the difference between requests and
+demands? Requests usually don’t come with rewards or punishments. Demands
+actually do.&lt;/p&gt;
+
+&lt;p&gt;So if we want healthy work environments, let’s get rid of this nonsense of
+rewards and punishments. It just reinforces this constant loop. &lt;a href=&quot;https://www.youtube.com/watch?v=rrkrvAUbU9Y&quot;&gt;There is just
+too much data already that this doesn’t work.&lt;/a&gt;&lt;/p&gt;
+</description>
+    <pubDate>Tue, 19 Dec 2017 12:32:20 +0200</pubDate>
+    <link>http://localhost:4000/rewards-punishments-and-cabbage/</link>
+    <guid isPermaLink="true">http://localhost:4000/rewards-punishments-and-cabbage/</guid>
+    
+    <category>NVC</category>
+    
+    <category>Rewards</category>
+    
+    <category>Management</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>Companies are decision-making machines</title>
+    <description>&lt;p&gt;(&lt;em&gt;This article was originaly published on the Hack and Paint blog&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt;* For the length of this post, we will draw analogy between
+companies and machines consisting of small parts. If you don’t like this analogy
+just substitute it with any of the following:*&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Company is Organism with Cells.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Company is Ecosystem with Organisms.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Company is Dependency Graph with Nodes.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Or if you are functional programming fan — Company is a Program with Functions.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;The point is — these are just semantics and they only help illustrate the
+point, so don’t get hung up on the over-simplification here.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A Company (like a Machine) has inputs and outputs. For example, Hack and Paint’s
+machine has inputs in the form of time (from people) and money (from our bank
+account). The output of this machine is a VR game. Anyone who is not part of
+Hack and Paint can look at Hack and Paint and draw the conclusion that it’s a
+machine that takes in money and time and outputs a VR game. Pretty straight
+forward. For someone outside the company that’s all the information they have—
+it’s a black box machine and what happens inside of the black box is unknown to
+them.&lt;/p&gt;
+
+&lt;p&gt;But for someone inside Hack and Paint, what happens inside the black box is
+hugely important because it affects not only them, but also how this machine
+produces VR games. It can produce them slowly, quickly, it can be optimized to
+spend resources carefully and still produce the same output. Or it can be
+functioning badly and it can spend all the resources without producing anything
+at all. &lt;strong&gt;How a machine operates is determined by it’s people and it’s
+culture.&lt;/strong&gt; The people are the parts of this machine and the culture is the rules
+and the logic that the machine uses to operate.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/input-output.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So companies, like machines, consist of parts that also have inputs and outputs.
+In terms of Hack and Paint and because we use
+Holacracy to operate this machine, these parts are roles. So far we have a big machine
+with parts inside the big machine. On any given day, at any given moment a
+company takes thousands, sometimes millions of decisions. From something small
+and internal, like “how to name this variable” to something big and external,
+like “should we buy our competitor”. Decisions happen all around us, all the
+time. How these decisions are taken will determine if the company will succeed
+or fail. &lt;strong&gt;So good decision making is kind of a big deal.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: In self-managed companies an important principle is the principle of
+transparency. Which means that all parts in this machine are free to exchange
+information without restrictions. The freeer the information is allowed to flow
+between parts in machines, the better. If you try to design a machine without
+allowing it’s parts to share information, I can guarantee that it will be a
+poorly designed machine ;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;At Hack and Paint we have a role called “Rigger ” — and to oversimplify it, the
+input this role accepts is “unrigged 3D model” and it outputs “rigged 3D
+character”. You can take any role in our current company governance scheme and
+see very well what inputs that role (part in the machine) accepts and what
+outputs it produces.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/input-output-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So if the small “Rigger” part is given the required input — unrigged model, it
+very well knows what to do with it — to rig it. But sometimes these parts are
+given inputs they can’t really handle on their own or information gets to the
+part, based on which it needs to take a decision outside the scope of it’s
+design. For example the part gets information that the machine is missing
+another important part — Animator to animate the rigged character. For example
+the person that has the Animator role is no longer within the company, the role
+is on vacation, or otherwise absent. Which means any work done by the Rigger
+part will be a waste of time. Now the part has to decide if it needs to continue to
+work on the rig or to stop doing this work. So the input to that part is “Based
+on what you know — decide if you should rig or not rig the 3D model”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/input-output-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s explore 3 different scenarios to gain some perspective:&lt;/p&gt;
+
+&lt;h3 id=&quot;the-part-decides-to-process-this-input-without-notifying-other-parts&quot;&gt;The part decides to process this input without notifying other parts&lt;/h3&gt;
+
+&lt;p&gt;What happens when the part decides she can process this input and stops work on
+the character. If the part does this without notifying other parts in the
+machine that depend on this information, chaos can ensue. Suddenly a decision
+has been taken that requires information to be spread to other parts of the
+machine, but that didn’t happen. So you are left with someone working on a task
+that is directly affected by this decision and suddenly they are left working on
+something that isn’t relevant anymore — waste of time, resources and morale. So
+to program all parts in the Hack and Paint machine to process any decisions
+(inputs) that they are given, regardless of the nature of the decision, is a bit
+overwhelming. This won’t work. So work will continue without the right
+communication about decisions that have been taken and crucial parts of the
+machine will be left in the dark — very inefficient design for a machine, don’t
+you think?&lt;/p&gt;
+
+&lt;h3 id=&quot;the-part-decides-to-process-this-input-and-then-notifies-other-parts-for-the-decision&quot;&gt;The part decides to process this input and then notifies other parts for the decision&lt;/h3&gt;
+
+&lt;p&gt;This machine design is a bit better than the first, but still not as streamlined
+as it could be. Here is why. The part decides what to do with the input — in
+this case, stop work on the tasks. Then it notifies other parts about the
+decision. The problem here is that some other part might have additional
+information that the first part was missing and say &lt;em&gt;“Hey, why did you decide
+this without notifying us before hand? I know a solution how to progress even
+with the current situation of missing an Animator. You should have notified us
+PRIOR to making this decision.”&lt;/em&gt; Now the Rigger part is given information that
+they were missing before — that there is a way to progress, but the decision was
+already taken — so that’s just a bad timing.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-part-decides-to-notify-other-parts-for-the-situation-and-then-take-a-decision-based-on-their-inputs&quot;&gt;The part decides to notify other parts for the situation and THEN take a decision based on their inputs&lt;/h3&gt;
+
+&lt;p&gt;Clearly we need a rule to handle situations where a part is given an input
+outside the specification or scope of its design. For an even better machine
+design, we came up with a process called “The Advice Process”.
+With this design/process, the part in question will FIRST determine who will get
+affected by it’s decision, THEN ask for advice from the parts that will be
+affected, and FINALLY will be able to take an informed decision based on their
+inputs. In this design,information is sought before proceeding with important
+decisions, because it affects multiple parts and the machine as a whole. The
+principle here is to aim for decisions with consent (not to be mistaken with
+consensus) i.e. everyone effected has given their input (and therefore their
+consent) for the decision to be made knowing that all the necessary information
+has been shared. This is crucial, because if all the relevant parts are not
+involved in this decision, by being asked for their advice, those parts will
+feel disengaged from the work. This is really important and it is embedded in
+all self-management companies, in some way or another, because it is a very
+elegant way of solving some extremely common issues like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;decisions taken without notice&lt;/li&gt;
+  &lt;li&gt;decisions taken without knowledge of the whole picture&lt;/li&gt;
+  &lt;li&gt;taking wrong decisions altogether&lt;/li&gt;
+  &lt;li&gt;disengagement from work&lt;/li&gt;
+  &lt;li&gt;bad morale&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So now you have an insight as to how we use Holacracy and “the Advice Process”
+to oil every part of our machine in the hope to make it work as well and
+efficiently as possible. Self management is organic and constantly evolving and
+we hope to continue sharing our leanings with you along the way. Let us know
+your thoughts and share any experiences you’ve had in the comments below!&lt;/p&gt;
+
+</description>
+    <pubDate>Tue, 19 Dec 2017 12:32:20 +0200</pubDate>
+    <link>http://localhost:4000/companies-are-decision-making-machines/</link>
+    <guid isPermaLink="true">http://localhost:4000/companies-are-decision-making-machines/</guid>
+    
+    <category>Holacracy</category>
+    
+    <category>Management</category>
+    
+    <category>Self-Management</category>
+    
+    <category>Games</category>
+    
+    <category>VR</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>Why we chose Holacracy for an indie VR game studio?</title>
+    <description>&lt;p&gt;(&lt;em&gt;This article was originaly published on the Hack and Paint blog&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;We started &lt;strong&gt;Hack and Paint&lt;/strong&gt; in late 2016, but we have been thinking about how
+to structure the company at least 4 years prior to that. All of us are veterans
+from the movie, animation and games industry. We have worked together in some of
+the most prestigious and loved companies in the world like &lt;strong&gt;Pixar, Blue Sky Studios,
+Ubisoft, MPC, EA Games, Rhythm and Hues&lt;/strong&gt;, and many others! Through the years,
+we observed how these studios are structured, what their culture is like and
+really wanted to improve upon what they have built in terms of organizational
+structure and culture.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/studios-team.png&quot; alt=&quot;&quot; /&gt;
+&lt;span class=&quot;figcaption_hack&quot;&gt;Companies and projects the Hack and Paint founders have been part of&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;In the past year we have been criticized about one fact — that we spent way too
+much time on building the company structure and culture, instead of focusing on
+the product itself, which for a game studio is the game we are currently making.
+I know why so many people are criticizing us about this, after all, the easiest
+approach for building any startup is — build and validate your product, fast.
+The structure and the company culture doesn’t really matter that much — that
+will “happen” anyway. Or at least that’s what most startups think. The fact is,
+to make a successful company, both aspects are really important. You can’t have
+a sustainable business without a product-market fit. That’s a given. However,
+the problem is, even if you do have a product-market fit, it’s only a short term
+success and potentially a very painful one. Or the way the Asana founders talk
+about it — &lt;strong&gt;“Companies that are succeeding with a more mercenary model are
+succeeding in spite of it, not because of it.”&lt;/strong&gt; —
+&lt;a href=&quot;https://www.fastcompany.com/3069240/how-asana-built-the-best-company-culture-in-tech&quot;&gt;https://www.fastcompany.com/3069240/how-asana-built-the-best-company-culture-in-tech&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Since the beginning, our aim was to create the perfect company, regardless of
+the product we make. After all, whatever product a company is developing, there
+is always a team of people behind the scenes doing all the work. The
+product-market fit is just something that other people desire, which the startup
+team can provide. A functioning team can make any product. However a product
+alone, cannot create and sustain a functioning team. So we invested in creating
+the best studio culture, combined with the best structure and workflow, that
+helps us achieve our purpose and finally a product — creating successful, fun,
+VR games. I think Simon Sinek nailed it in his book &lt;a href=&quot;https://www.startwithwhy.com/&quot;&gt;“Start with
+Why”&lt;/a&gt;. We really started with the “Why we exist”
+question in the first place. Then we moved to the “How” as in “How do we work
+together”, and finally we came to the “What” question with “What game are we
+making?”&lt;/p&gt;
+
+&lt;p&gt;The reasons we chose this route, instead of the easier, more traditional
+approach, was to improve upon a few areas that we believe most studios struggle
+with:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Better understanding of the company purpose and why the studio exists in the
+first place.&lt;/li&gt;
+  &lt;li&gt;Better understanding of what each person in the studio is responsible for
+exactly.&lt;/li&gt;
+  &lt;li&gt;Easy way to change how the company and the team operates without the need to go
+through a lot of politics and meetings.&lt;/li&gt;
+  &lt;li&gt;Employees feeling disengaged from work or from the project.&lt;/li&gt;
+  &lt;li&gt;Lack of innovation.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Note: if you are looking to find a silver bullet for all this, I have to say we
+haven’t found it. But we believe we are on the right track. We are focusing on
+two areas which we believe are important to get right in order for these
+challenges to disappear — the structure of the company and the mindset of the
+people in this different organizational structure.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-studio-structure&quot;&gt;The Studio Structure&lt;/h3&gt;
+
+&lt;p&gt;When it comes to studio organizations, the prevalent model is hierarchical. The
+studios are usually divided into departments (e.g. “Modeling Department”,
+“Animation Department”), which are focused on one part of the whole production
+pipeline. In the upper example — the Modeling Department is responsible for
+creating the models of the characters and the sets in the games or movies. Then
+we have supervisors and production managers per department, making sure the
+communication inside and outside of the department is clear with everyone in the
+production team. Then the artists in a department are usually divided into
+junior, senior and lead artists depending on their seniority and
+responsibilities.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/holacracy-hierarchy.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To begin with, we wanted a way to spread that power we usually see at the top of
+the pyramid, into multiple roles and circles throughout the whole company. We
+chose Holacracy as a system, but there are may different ways of achieving the
+same. For more on that topic, read Frederic Laloux’s book &lt;a href=&quot;http://www.reinventingorganizations.com/&quot;&gt;“Reinventing
+Organizations”&lt;/a&gt;. In effect, the
+traditional management paradigm and parent-child relationship, is replaced with
+self-management and partner-partner relationship. Everyone is free and liberated
+to take the initiative and start a project and everyone can change how the
+company works. The alignment between partners is far better than in a
+traditional hierarchical system. And there is a much clearer understanding
+around what each of us is supposed to be doing as part of this system, without
+the need of supervisors or project managers.&lt;/p&gt;
+
+&lt;h3 id=&quot;our-mindset&quot;&gt;Our Mindset&lt;/h3&gt;
+
+&lt;p&gt;This all sounds good, except that not everyone is able to work in such a way
+which was the big surprise for us. We thought that given the choice, everyone on
+this earth will prefer to work in this new and exciting way. Now we understand
+this is not true, but at the beginning we were quite shocked by this fact.
+Although there is a much bigger responsibility placed on each of us, we have a
+greater impact on the whole picture, compared to a traditional organization. The
+work that is usually done by managers is now spread among all of us. In essence,
+we are all managers in our domain and expertise. But in my opinion, the biggest
+challenge comes from the fact that our mindset is too fixed on the
+“parent-child” relationship that we experience throughout our lives. We are
+supervisors, leads, senior or junior artists, CEOs, bosses, founders, employees,
+temp employees, freelancers etc. Even the words convey some kind of hierarchical
+structure. So our mindset is such that if we hold a certain position we are
+either the child or the parent. I expect my supervisor to take care of my
+problems. I`m also used to that feeling that she will protect me. She also
+expects that if a problem occurs I will tell her that, and she will be able to
+help me. This mindset is so ingrained that it’s really hard to get rid of.&lt;br /&gt;
+Systems like Holacracy replace that “parent-child” relationship with an
+“adult-adult” or “partner-partner” relationships. Even the Holacracy
+Constitution specifically refers to “partners” and not “employees”, but only a
+shift in the names we use for things is not enough. The biggest shift is when
+our mindset changes. That’s a very hard thing to do, requires a lot of time and
+effort, and this is where the challenge begins.&lt;/p&gt;
+
+&lt;p&gt;There are many emerging tools and processes, which are aimed at startups and
+facilitating these new working styles. Agile, Kan-Ban, Slack, Git, to name a
+few, as well as inspiring and thought provoking programs like the &lt;a href=&quot;http://tuffleadershiptraining.com&quot;&gt;Tuff
+Leadership Training,&lt;/a&gt; aimed at teaching and
+developing a new generations of leaders. Ultimately however, it is down to the
+people who are committed to nurturing this new style of working, and their
+dedication to breaking habits that have been ingrained over the years, in an
+effort to find a better way to do what they love, every day.&lt;/p&gt;
+</description>
+    <pubDate>Tue, 11 Apr 2017 13:32:20 +0300</pubDate>
+    <link>http://localhost:4000/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</link>
+    <guid isPermaLink="true">http://localhost:4000/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</guid>
+    
+    <category>Holacracy</category>
+    
+    <category>Management</category>
+    
+    <category>Self-Management</category>
+    
+    <category>VR</category>
+    
+    <category>Games</category>
+    
+    
+  </item>
+  
+</channel>
+</rss>
