@@ -2,7 +2,7 @@ title: Hello! I'm Marin Petrov and this is my digital garden.
 description: > # this means to ignore newlines until "baseurl:"
   Marin Petrov's digital garden.
 permalink: ':title/'
-baseurl: "https://marinpetrov.com" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://marinpetrov.com" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
