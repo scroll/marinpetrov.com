@@ -4,11 +4,189 @@
   <title>Hello! I&apos;m Marin Petrov and this is my digital garden.</title>
   <description>Marin Petrov&apos;s digital garden.
 </description>
-  <link>http://localhost:4000/</link>
-  <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-  <pubDate>Tue, 09 Jul 2024 12:21:16 +0300</pubDate>
-  <lastBuildDate>Tue, 09 Jul 2024 12:21:16 +0300</lastBuildDate>
+  <link>https://marinpetrov.com/</link>
+  <atom:link href="https://marinpetrov.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <pubDate>Wed, 05 Mar 2025 15:50:03 +0200</pubDate>
+  <lastBuildDate>Wed, 05 Mar 2025 15:50:03 +0200</lastBuildDate>
   <generator>Jekyll v4.3.2</generator>
+  
+  <item>
+    <title>The two types of Twitter poasting</title>
+    <description>&lt;p&gt;I discovered Twitter (now 𝕏, but I we still call it Twitter anyway) in 2009, yet didn’t actively use it until the 2020 pandemic hit. As a newcomer to the platform, I sought advice how others use it and discovered two very distinct approaches. This post explores these contrasting ways you can use Twitter to connect with others.&lt;/p&gt;
+
+&lt;h2 id=&quot;understanding-social-media-dynamics&quot;&gt;Understanding Social Media Dynamics&lt;/h2&gt;
+
+&lt;p&gt;Before diving into Twitter specifically, let’s establish some social media fundamentals:&lt;/p&gt;
+
+&lt;p&gt;Social media operates on two key elements:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;People&lt;/strong&gt;: Real humans with values, emotions, needs, goals, and fears&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Algorithm&lt;/strong&gt;: The system deciding which humans see your content&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When I post something, the algorithm determines initial visibility, then adjusts reach based on human interaction. This human-algorithm interplay determines a post’s ultimate reach. While all platforms function this way, algorithms remain somewhat mysterious—we make educated guesses about their inner workings.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-job-poasting-approach&quot;&gt;The “Job Poasting” Approach&lt;/h2&gt;
+
+&lt;p&gt;When I first started using Twitter, I repeatedly encountered this advice:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Choose a passion topic&lt;/li&gt;
+  &lt;li&gt;Make that topic clear in your profile&lt;/li&gt;
+  &lt;li&gt;Post about that topic consistently (ideally daily)&lt;/li&gt;
+  &lt;li&gt;Follow and engage with others sharing this interest&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I call this the “job poasting” approach because it genuinely resembles an employment. You wake up, go to your Twitter “job,” create content, interact with “colleagues” in your field, then log off. And this works well for many users.&lt;/p&gt;
+
+&lt;p&gt;In essence, job poasting is like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Working a 9-to-5 job — you clock in, produce expected content, and clock out.&lt;/li&gt;
+  &lt;li&gt;Becoming a specialist in a corporate environment — you develop expertise in one domain.&lt;/li&gt;
+  &lt;li&gt;Building a professional network — you connect primarily with others in your “industry”.&lt;/li&gt;
+  &lt;li&gt;Maintaining a consistent brand — your online persona becomes a carefully curated product.&lt;/li&gt;
+  &lt;li&gt;Playing it safe — you avoid topics that might alienate your established audience.&lt;/li&gt;
+  &lt;li&gt;Climbing a career ladder — success is measured by metrics and industry recognition.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;However, I faced a dilemma: What if I’m professionally involved in animation but personally passionate about cooking? If I post exclusively about animation, I become part of “Animation Twitter,” connecting with that community. Similarly, consistent cooking posts place me in “Cooking Twitter.” And then mixing those topics confuses the algorithm, which struggles to determine appropriate audiences. This becomes even more problematic when posting about multiple interests — the algorithm shows your content to random followers with minimal chance of engagement, as they likely follow you for other specific content.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-personal-tension&quot;&gt;My Personal Tension&lt;/h2&gt;
+
+&lt;p&gt;The biggest issue for me with this advice was that I couldn’t commit to a single topic. My interests span widely — I’m equally fascinated by art as I am by software engineering and entrepreneurship. I’m interested in both the human psyche as I am in fly fishing. Selecting just one focus felt impossible and disingenuous. When reading “job poasters,” I often sense this same feeling of artificiality and inauthenticity. What I mean is that nobody is so one sided. All people are genuinely interesting to me! I want to know more about them! If they only post about one thing, I don’t feel much connection to the human being behind the posts.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-quest-poasting-alternative&quot;&gt;The “Quest Poasting” Alternative&lt;/h2&gt;
+
+&lt;p&gt;Fortunately, I discovered some people using Twitter differently. I call this approach the “quest poasting” because it feels more like a quest and an adventure rather than routine job or work:&lt;/p&gt;
+
+&lt;p&gt;How quest poasting feels and what it is like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On a quest, you know the general direction but not the exact path — similarly, quest post might share a spontaneous curiosity without knowing where it leads.&lt;/li&gt;
+  &lt;li&gt;Quests poasting introduces you to unexpected companions — by doing so you often attract responses from diverse new connections rather than the same circle of known accounts.&lt;/li&gt;
+  &lt;li&gt;Quest poasting is inherently unpredictable — you never know what outcomes your tweets might generate, unlike the high predictability of job poasting.&lt;/li&gt;
+  &lt;li&gt;It is like being a renaissance person — you embrace the full spectrum of your interests without constraint.&lt;/li&gt;
+  &lt;li&gt;Showing your authentic self — your online presence reflects your multifaceted personality.&lt;/li&gt;
+  &lt;li&gt;Taking intellectual risks — you share half-formed ideas and evolving thoughts. (like this blog post)&lt;/li&gt;
+  &lt;li&gt;Following a personal odyssey — growth comes through exploration rather than optimization.&lt;/li&gt;
+  &lt;li&gt;Embracing serendipity — some of your most meaningful connections come from unexpected interactions.&lt;/li&gt;
+  &lt;li&gt;Building a tavern rather than a stage — your timeline becomes a space for genuine conversation.&lt;/li&gt;
+  &lt;li&gt;Valuing wonder over metrics — success is measured by interesting discoveries rather than engagement statistics.&lt;/li&gt;
+  &lt;li&gt;Dancing with the algorithm rather than serving it — you accept unpredictable reach as part of the journey.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;finding-your-own-path&quot;&gt;Finding Your Own Path&lt;/h2&gt;
+
+&lt;p&gt;I follow some amazing people who do the job poasting approach where they build focused communities around a very specific expertise. It works great for them. They grow steadily, gain recognition, and create valuable connections within their field. Their timelines have a coherent narrative that attracts like-minded followers, and there’s something admirable about that kind of disciplined commitment to a subject.&lt;/p&gt;
+
+&lt;p&gt;Others blend both approaches — they have a general territory but allow themselves to wander off-trail. They’ve found a balance that gives them room to breathe while still maintaining enough topical consistency for the algorithm to make sense of them. It’s like having a home base with permission to explore.&lt;/p&gt;
+
+&lt;p&gt;I personally decided to use the quest poasting approach - for me it feels more natural because it aligns with my many interests which I often want to go deep on. Some days I’ll dive into animation techniques, other days I’m exploring entrepreneurship concepts or sharing thoughts about human behavior. This approach means my follower growth might be slower and less predictable, but the connections I make tend to be more varied and surprising. I’ve had fascinating conversations with people I would never have encountered if I’d stayed in one lane.&lt;/p&gt;
+
+&lt;p&gt;What I’ve discovered is that the quest approach attracts people who are similarly curious about multiple domains. My timeline has become a kind of intellectual potluck where different perspectives and expertise collide in unexpected ways. The algorithm might not always know what to do with me, but the humans who resonate with this style of sharing certainly do. And ultimately, that’s what makes Twitter worthwhile for me - not optimizing for growth metrics, but creating space for genuine exploration and connection.&lt;/p&gt;
+</description>
+    <pubDate>Sat, 08 Feb 2025 10:47:00 +0200</pubDate>
+    <link>https://marinpetrov.com/twitter/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/twitter/</guid>
+    
+    <category>social-media</category>
+    
+    <category>algorithm</category>
+    
+    <category>twitter</category>
+    
+    <category>x</category>
+    
+    
+  </item>
+  
+  <item>
+    <title>What is the value in rigging</title>
+    <description>&lt;p&gt;When teams prioritize development tasks and projects for rigging they often forget about what makes an item “valuable”. Should the team value more an estimated 2 months initiative to optimize the rig speed by 6% over a change in the spine component requested by animation? How about fixing a bug that should probably take a day or two, but is breaking the whole studio pipeline. Should it stop every other development currently in progress? In an ideal world we will do everything, but with limited time and resources, it is important to prioritize properly. But we can’t prioritize without understanding “value”.&lt;/p&gt;
+
+&lt;p&gt;In this blog post I will try to tackle down a common misconception I see in rigging teams about what actually constitutes “value”. I am intentionally going to leave out the concept of “urgency”, because I find that it is an easier concept to grasp. Although &lt;a href=&quot;https://cutlefish.substack.com/p/tbm-245-the-magic-prioritization&quot;&gt;both should go hand in hand when you prioritize development&lt;/a&gt;, for now I will just focus on the “value” concept as it’s a bit more tricky.&lt;/p&gt;
+
+&lt;p&gt;First let’s start with some first principles about rigging.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Nobody needs rigging&lt;/strong&gt;. This is a hard truth to swallow if you are a rigger. Or a liberating one if you choose it to be! Let me tell you a personal story. More than 20 years ago, I decided I wanted to be a character animator. But back in the day there were no rigs you could just download and start animating with. So in order for me to start animating, I first needed to create a rig for a character I also modeled. Think about this for a second. What I actually wanted back then was to animate, but what I ended up doing was creating some bones and skin in order to animate. The same is true with any movie or game production - if there was a way for an animator to animate without a rig, they would do it. Not even the audience sees the rig on the final screen. The only purpose of rigging is to help animators do their job!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Rigging’s value is measured by animator productivity&lt;/strong&gt;
+The ultimate measure of a rig’s value isn’t technical elegance or code efficiency—it’s how effectively it enables animators to work. A “perfect” rig that animators find unintuitive or cumbersome actually has low value, while a technically simpler rig that animators can use efficiently has high value. Value metrics should include: animation speed, quality of resulting animation, and animator satisfaction.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Value exists in context&lt;/strong&gt;
+The same rigging feature might be critical for one production but unnecessary for another. A film with a lot of character performances needs sophisticated facial rigging, while a racing game might prioritize vehicle deformation systems. Value assessment must consider the specific production needs.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;how-to-increase-value&quot;&gt;How to increase value&lt;/h2&gt;
+
+&lt;p&gt;So taking those principles, you can see that value can be created in many different ways. 
+For example, we can choose to do something which will &lt;strong&gt;increase Animation’s productivity&lt;/strong&gt;. Things that fit in this category:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Improve a rig component to allow easier and faster animation&lt;/li&gt;
+  &lt;li&gt;Increase rig performance&lt;/li&gt;
+  &lt;li&gt;Create a new deformer that makes it easier to achieve a certain pose&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We can also derive value from initiatives that &lt;strong&gt;increase production speed&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rigging framework to make authoring rigs easier and faster&lt;/li&gt;
+  &lt;li&gt;Pre-made archetypes&lt;/li&gt;
+  &lt;li&gt;Tools to facilitate deformation work&lt;/li&gt;
+  &lt;li&gt;Universal meshes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We can take actions to &lt;strong&gt;reduce bugs&lt;/strong&gt;, basically costs that we are currently incurring by producing rigs which are not “per the standards”. Initiatives in this category include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;QC frameworks to catch bugs early&lt;/li&gt;
+  &lt;li&gt;Standardize rig creation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And finally value can be increased by &lt;strong&gt;avoiding bugs&lt;/strong&gt;, basically reducing costs we are not currently incurring but may do so in the future:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Maintain readable codebase&lt;/li&gt;
+  &lt;li&gt;Unit Testing&lt;/li&gt;
+  &lt;li&gt;Metrics dashboards to check rig builds&lt;/li&gt;
+  &lt;li&gt;Reduce code dependencies and complexity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also think that if you want to deliver the most value, you need to choose initiatives that check more than one of those boxes.&lt;/p&gt;
+
+&lt;h2 id=&quot;common-value-traps&quot;&gt;Common Value Traps&lt;/h2&gt;
+&lt;p&gt;Rigging teams often fall into these value assessment traps:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Technical impressiveness bias&lt;/strong&gt; - Prioritizing complex technical challenges over simpler solutions that would deliver more value to animators.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The “cool factor” distortion&lt;/strong&gt; - Pursuing exciting new features while neglecting maintenance that would deliver more overall value.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Invisible value blindness&lt;/strong&gt; - Undervaluing work that prevents problems (because avoided problems are invisible) while overvaluing work that solves visible problems.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Specialization silos&lt;/strong&gt; - Failing to recognize value across disciplines because riggers don’t fully understand animation workflows.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+    <pubDate>Wed, 25 Sep 2024 22:47:00 +0300</pubDate>
+    <link>https://marinpetrov.com/Value-in-rigging/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/Value-in-rigging/</guid>
+    
+    <category>CG</category>
+    
+    <category>Animation</category>
+    
+    <category>Rigging</category>
+    
+    
+  </item>
   
   <item>
     <title>Riding the Crest Once Again: Echoes of Love and Belonging</title>
@@ -47,8 +225,8 @@
 
 </description>
     <pubDate>Fri, 02 Feb 2024 14:19:00 +0200</pubDate>
-    <link>http://localhost:4000/Riding-the-crest/</link>
-    <guid isPermaLink="true">http://localhost:4000/Riding-the-crest/</guid>
+    <link>https://marinpetrov.com/Riding-the-crest/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/Riding-the-crest/</guid>
     
     <category>Poetry</category>
     
@@ -133,8 +311,8 @@
 &lt;p&gt;&lt;em&gt;If you are someone on a rigging leadership position, I would love to chat with you about all of this. Are you currently measuring any of these metrics? What are the current metrics of your team and how are they improving over time? Did you do something specific that affected those metrics positively? How about negatively? Reach out to marin@hey.com and drop me a mail so we can chat.&lt;/em&gt;&lt;/p&gt;
 </description>
     <pubDate>Wed, 01 Nov 2023 17:32:20 +0200</pubDate>
-    <link>http://localhost:4000/the-only-rigging-metrics-you-will-ever-need/</link>
-    <guid isPermaLink="true">http://localhost:4000/the-only-rigging-metrics-you-will-ever-need/</guid>
+    <link>https://marinpetrov.com/the-only-rigging-metrics-you-will-ever-need/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/the-only-rigging-metrics-you-will-ever-need/</guid>
     
     <category>rigging</category>
     
@@ -198,8 +376,8 @@ your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em
 
 </description>
     <pubDate>Sun, 24 Sep 2023 22:02:00 +0300</pubDate>
-    <link>http://localhost:4000/about-me/</link>
-    <guid isPermaLink="true">http://localhost:4000/about-me/</guid>
+    <link>https://marinpetrov.com/about-me/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/about-me/</guid>
     
     <category>biography</category>
     
@@ -288,8 +466,8 @@ your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em
 &lt;p&gt;If you enjoyed this article, follow me on &lt;a href=&quot;https://twitter.com/marinwaves&quot;&gt;&lt;span style=&quot;font-size:larger;&quot;&gt;&lt;strong&gt;Twitter&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;, where I write more about what I’m doing next and how I’m doing it.&lt;/p&gt;
 </description>
     <pubDate>Sun, 20 Aug 2023 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/why-i-quit-and-started-two-companies/</link>
-    <guid isPermaLink="true">http://localhost:4000/why-i-quit-and-started-two-companies/</guid>
+    <link>https://marinpetrov.com/why-i-quit-and-started-two-companies/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/why-i-quit-and-started-two-companies/</guid>
     
     <category>Management</category>
     
@@ -330,8 +508,8 @@ your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em
 &lt;p&gt;And for those interested in the technology I’m using for this site - I use Jekyll to generate static files. The templates are simple liquid HTML files, and all essays are written in markdown. I host all that on Github pages.&lt;/p&gt;
 </description>
     <pubDate>Sat, 12 Aug 2023 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/my-digital-sea-garden/</link>
-    <guid isPermaLink="true">http://localhost:4000/my-digital-sea-garden/</guid>
+    <link>https://marinpetrov.com/my-digital-sea-garden/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/my-digital-sea-garden/</guid>
     
     <category>howto</category>
     
@@ -372,8 +550,8 @@ your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em
 &lt;img src=&quot;/assets/img/watercolor-04.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
     <pubDate>Wed, 20 Apr 2022 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/watercolor-better-leader/</link>
-    <guid isPermaLink="true">http://localhost:4000/watercolor-better-leader/</guid>
+    <link>https://marinpetrov.com/watercolor-better-leader/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/watercolor-better-leader/</guid>
     
     <category>painting</category>
     
@@ -417,8 +595,8 @@ There are very few people who can read and understand code and especially the co
 When it comes to human collaboration, I am skeptical that DAOs solve something that can’t be quite easily solved otherwise. Self-managing companies which are autonomous and decentralized &lt;a href=&quot;https://www.youtube.com/watch?v=gcS04BI2sbk&quot;&gt;have existed for decades&lt;/a&gt; without the need for any special technology behind them. Cooperatives, which are also autonomous decentralized organizations have existed for centuries without the need for blockchains. We tend to believe that every world or human problem can be solved with technology nowadays, but unfortunately, some problems can’t. Trying to remove the messy parts of being a human by using computer code, blockchains and crypto doesn’t really work. And this is because human collaboration is above all… human.&lt;/p&gt;
 </description>
     <pubDate>Wed, 08 Dec 2021 12:32:20 +0200</pubDate>
-    <link>http://localhost:4000/DAOs-human-collaboration/</link>
-    <guid isPermaLink="true">http://localhost:4000/DAOs-human-collaboration/</guid>
+    <link>https://marinpetrov.com/DAOs-human-collaboration/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/DAOs-human-collaboration/</guid>
     
     <category>DAO</category>
     
@@ -469,8 +647,8 @@ When artists feel disengaged from work, innovation suffers, and mediocrity reign
 
 </description>
     <pubDate>Mon, 05 Jul 2021 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/why-all-studios-have-same-org-chart/</link>
-    <guid isPermaLink="true">http://localhost:4000/why-all-studios-have-same-org-chart/</guid>
+    <link>https://marinpetrov.com/why-all-studios-have-same-org-chart/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/why-all-studios-have-same-org-chart/</guid>
     
     <category>Management</category>
     
@@ -516,8 +694,8 @@ When artists feel disengaged from work, innovation suffers, and mediocrity reign
 &lt;p&gt;So describe your “Whys” and invite others to participate in the decisions.&lt;/p&gt;
 </description>
     <pubDate>Thu, 17 Jun 2021 13:35:20 +0300</pubDate>
-    <link>http://localhost:4000/rolling-processes/</link>
-    <guid isPermaLink="true">http://localhost:4000/rolling-processes/</guid>
+    <link>https://marinpetrov.com/rolling-processes/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/rolling-processes/</guid>
     
     <category>Culture</category>
     
@@ -539,8 +717,8 @@ When artists feel disengaged from work, innovation suffers, and mediocrity reign
 &lt;p&gt;&lt;em&gt;“If the world lived by those ideas, then they would all be grooving along with every beautiful and useful thing we touched and saw. Because the human being that created those things would have made them with the inner peace that comes to us all when the world of subject and object, me and you, romantic and classical, then and now, outside and inside simply fades away into the oneness.”&lt;/em&gt;&lt;/p&gt;
 </description>
     <pubDate>Fri, 30 Apr 2021 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/zen-and-the-art-of-motorcycle-maintenance/</link>
-    <guid isPermaLink="true">http://localhost:4000/zen-and-the-art-of-motorcycle-maintenance/</guid>
+    <link>https://marinpetrov.com/zen-and-the-art-of-motorcycle-maintenance/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/zen-and-the-art-of-motorcycle-maintenance/</guid>
     
     <category>Art</category>
     
@@ -603,8 +781,8 @@ When artists feel disengaged from work, innovation suffers, and mediocrity reign
 &lt;p&gt;So are you a small team or a big team? If you are a small team, then consider rebuilding your rigs without serializing your deformer data.&lt;/p&gt;
 </description>
     <pubDate>Sun, 31 May 2020 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/serializing-rigging-data-or-not/</link>
-    <guid isPermaLink="true">http://localhost:4000/serializing-rigging-data-or-not/</guid>
+    <link>https://marinpetrov.com/serializing-rigging-data-or-not/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/serializing-rigging-data-or-not/</guid>
     
     <category>Rigging</category>
     
@@ -703,8 +881,8 @@ rewards and punishments. It just reinforces this constant loop. &lt;a href=&quot
 too much data already that this doesn’t work.&lt;/a&gt;&lt;/p&gt;
 </description>
     <pubDate>Tue, 19 Dec 2017 12:32:20 +0200</pubDate>
-    <link>http://localhost:4000/rewards-punishments-and-cabbage/</link>
-    <guid isPermaLink="true">http://localhost:4000/rewards-punishments-and-cabbage/</guid>
+    <link>https://marinpetrov.com/rewards-punishments-and-cabbage/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/rewards-punishments-and-cabbage/</guid>
     
     <category>NVC</category>
     
@@ -858,8 +1036,8 @@ your thoughts and share any experiences you’ve had in the comments below!&lt;/
 
 </description>
     <pubDate>Tue, 19 Dec 2017 12:32:20 +0200</pubDate>
-    <link>http://localhost:4000/companies-are-decision-making-machines/</link>
-    <guid isPermaLink="true">http://localhost:4000/companies-are-decision-making-machines/</guid>
+    <link>https://marinpetrov.com/companies-are-decision-making-machines/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/companies-are-decision-making-machines/</guid>
     
     <category>Holacracy</category>
     
@@ -1004,8 +1182,8 @@ dedication to breaking habits that have been ingrained over the years, in an
 effort to find a better way to do what they love, every day.&lt;/p&gt;
 </description>
     <pubDate>Tue, 11 Apr 2017 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</link>
-    <guid isPermaLink="true">http://localhost:4000/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</guid>
+    <link>https://marinpetrov.com/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</guid>
     
     <category>Holacracy</category>
     
