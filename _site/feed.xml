@@ -4,11 +4,150 @@
   <title>Hello! I&apos;m Marin Petrov and this is my digital garden.</title>
   <description>Marin Petrov&apos;s digital garden.
 </description>
-  <link>https://marinpetrov.com/</link>
-  <atom:link href="https://marinpetrov.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <pubDate>Wed, 05 Mar 2025 15:54:21 +0200</pubDate>
-  <lastBuildDate>Wed, 05 Mar 2025 15:54:21 +0200</lastBuildDate>
+  <link>http://localhost:4000/</link>
+  <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+  <pubDate>Thu, 08 May 2025 10:38:58 +0300</pubDate>
+  <lastBuildDate>Thu, 08 May 2025 10:38:58 +0300</lastBuildDate>
   <generator>Jekyll v4.3.2</generator>
+  
+  <item>
+    <title>Patterns of a healthy Community</title>
+    <description>&lt;p&gt;I was spending some time these past few weeks with my friends Johnson and Javi in a small village near Alicante, Spain called Orxeta. Javi lives there, while me and Johnson were visiting. It was my second time there and the reason we keep coming back is because of the feeling of community the small village has. We were walking around the town’s hills and pondering on the question of what makes a community “tick”. Basically, what are the qualities or patterns (as Christopher Alexander would probably say) that make a community healthy and thriving. In this part of my garden I will keep track of all such patterns.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: The patterns here will be constantly updated when I find new ones - please do comment below if you think there is a pattern you have observed that is not included yet.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Drawing inspiration from Christopher Alexander’s methodology in “A Pattern Language,” I’ll use a star rating system to indicate how firmly established each pattern appears to be in practice. Three stars means I really believe this pattern is essential and one star means - more practice needed to confirm it’s usefulness.&lt;/p&gt;
+
+&lt;h3 id=&quot;walkable-proximity-&quot;&gt;Walkable Proximity ★★★&lt;/h3&gt;
+&lt;p&gt;The ability to reach essential services, gathering places, and neighbors on foot creates natural opportunities for interaction and reduces isolation. 
+It also reduces the need for cars, which disrupts other important community patterns like Living Streets and Natural Gathering Points. 
+When communities are designed at a human scale rather than an automotive scale:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Spontaneous encounters become more frequent, nurturing one-to-one relationships&lt;/li&gt;
+  &lt;li&gt;“Third places” (neither home nor work) emerge naturally, supporting small group gatherings&lt;/li&gt;
+  &lt;li&gt;Neighborhood identities strengthen, fostering village-wide cohesion&lt;/li&gt;
+  &lt;li&gt;Children can navigate their community independently, developing autonomy and social skills&lt;/li&gt;
+  &lt;li&gt;Elderly residents remain integrated rather than isolated&lt;/li&gt;
+  &lt;li&gt;The physical environment itself reinforces social connections rather than severing them&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Car-dependent design forces interactions into scheduled, destination-based events rather than allowing the natural, layered interactions that occur when people share space while moving through their daily lives. The resulting isolation undermines the formation of relationships at every level—from intimate friendships to broader community bonds.
+In villages like Orxeta, the compact layout naturally encourages these multi-layered interactions — people chat through open windows, neighbors spontaneously share meals, children play in the streets, and elders observe community life from strategic sitting spots - all supporting the varied scales of human connection that emerge naturally when proximity allows.
+This pattern connects deeply with Living Streets, forming a cluster of interrelated patterns that reinforce each other when present or collectively deteriorate when absent.&lt;/p&gt;
+
+&lt;h3 id=&quot;participatory-arts-culture-&quot;&gt;Participatory Arts Culture ★★★&lt;/h3&gt;
+&lt;p&gt;Healthy communities embrace widespread participation in creative expression—music, painting, theater, writing, dance, and more. These aren’t left to professionals or institutions alone, but become a normal part of everyday life for everyone.
+In places where this pattern thrives, art is seen as something people do, not just consume. Children grow up playing in community bands or painting with neighbors. Adults of all ages organize theater productions, write books inspired by local life, or craft handmade goods. Even those who don’t create themselves often attend and support local performances, exhibitions, or creative workshops.
+There’s usually a regular rhythm — weekly events, seasonal performances, or public exhibitions—that keeps the creative energy visible and accessible. More importantly, these communities hold the shared belief that art isn’t a luxury or a separate sphere — it’s for everyone, and it belongs in the fabric of daily life.
+This pattern strengthens identity, builds bridges across age and background, and offers a shared sense of meaning that keeps the social fabric resilient and alive.&lt;/p&gt;
+
+&lt;h3 id=&quot;mixed-use-spaces-&quot;&gt;Mixed-Use Spaces ★★★&lt;/h3&gt;
+&lt;p&gt;Communities thrive when residential, commercial, civic, and recreational functions are blended rather than segregated into rigid zones. In walkable areas where cafés, workshops, studios, markets, homes, and even town halls coexist within the same blocks or buildings, the result is a vibrant, dynamic environment where life flows naturally throughout the day.
+This spatial overlap encourages chance encounters and reduces the sense of isolation often found in areas designed for a single function. When people can live upstairs, work downstairs, and share a drink next door — social rhythms feel organic, not compartmentalized. Even civic institutions take on a more grounded character when embedded in daily life — like when a town hall shares a wall with a café or music school.
+In contrast, when buildings are sorted strictly by use — offices in one area, housing in another, retail in a third — social interaction becomes fractured. People must travel between disconnected zones for even basic daily needs, turning community life into a series of errands rather than an ongoing, shared experience. Workers in isolated “functional” districts must leave to find lunch or connection, and spontaneous public life often disappears.
+Mixed-use spaces allow a community’s pulse to stay steady—creating places where life, work, creativity, and rest coexist in harmony.&lt;/p&gt;
+
+&lt;h3 id=&quot;natural-gathering-points-&quot;&gt;Natural Gathering Points ★★★&lt;/h3&gt;
+&lt;p&gt;Healthy communities offer informal spaces where people naturally gather — plazas, cafés, shaded benches, fountains, or corner bars. These are not always formally planned as “public squares,” but they become social magnets because of their location, visibility, comfort, and accessibility.
+They tend to have a few consistent traits: central visibility (you can see who’s around), places to sit and linger, some shade or shelter, and a rhythm of daily life passing by. People use them to chat, rest, read, observe, and share spontaneous moments with others. These spaces are neither entirely private nor overly institutional — they feel approachable and relaxed.
+When these kinds of gathering points are missing, communities can feel fragmented. There’s no natural place to drift toward, no soft landing spots for everyday encounters. People retreat to private spaces, and social life becomes planned and isolated.
+Some gathering spots seem to emerge organically over time — a certain café corner gets the morning sun, a particular bench becomes the place where elders meet. Others are created by design. Successful community spaces often mix the two: they are built with the intention of attracting people, then evolve as those people make the place their own.&lt;/p&gt;
+
+&lt;h3 id=&quot;communal-breaking-of-bread-&quot;&gt;Communal Breaking of Bread ★★★&lt;/h3&gt;
+&lt;p&gt;Eating together is one of the most accessible and powerful ways to build community. Whether it’s regular Friday night gatherings at a local pub, shared meals during festivals, or spontaneous lunches between neighbors, communal eating fosters warmth, familiarity, and mutual trust. It’s rarely about fancy food — it’s about showing up and sharing time.
+These gatherings often cut across generations and social roles — families, elders, newcomers, and children all eat side by side. Over time, these meals become informal rituals that anchor people to place and to each other.
+Studies show that regular social eating strengthens friendships, boosts life satisfaction, and builds trust within communities. It supports a deeper sense of belonging and well-being — not just individually, but collectively. Places that make space for communal dining — parks, plazas, restaurants, or neighborhood streets — tend to have more resilient and connected communities.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/community_eating.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Diagram: Regular social eating increases number of friends, community engagement, trust in community, and happiness. Redrawn from &lt;a href=&quot;https://link.springer.com/article/10.1007/s40750-017-0061-4&quot;&gt;“Breaking Bread: the Functions of Social Eating”&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;nested-social-scales-&quot;&gt;Nested Social Scales ★★★&lt;/h3&gt;
+&lt;p&gt;Healthy communities don’t rely on just one kind of group — they support many layers of connection. 
+Following &lt;a href=&quot;https://www.microsolidarity.cc/essays/five-scales-of-microsolidarity&quot;&gt;Microsolidarity’s framework&lt;/a&gt;, these include the individual, dyads (pairs), small crews (3–5 people), congregations (15–150), and networks of congregations. 
+Each scale offers something distinct — from deep trust to shared culture — communities thrive when they make space for all of them.&lt;/p&gt;
+
+&lt;p&gt;In practice, this can look like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Individuals with personal practices and rhythms&lt;/li&gt;
+  &lt;li&gt;Close partnerships between friends, spouses, or neighbors&lt;/li&gt;
+  &lt;li&gt;Small groups sharing meals, raising kids, or repairing bikes together&lt;/li&gt;
+  &lt;li&gt;Interconnected homes around a shared courtyard&lt;/li&gt;
+  &lt;li&gt;A village where most people know each other by name&lt;/li&gt;
+  &lt;li&gt;Links between neighboring villages through festivals, trade, or music&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When a community supports all these scales — from a quiet bench for one to a plaza for the whole town — it builds both intimacy and resilience. Designing with these layers in mind helps ensure no one falls through the cracks, and that there’s always a place to belong.&lt;/p&gt;
+
+&lt;h3 id=&quot;celebration-rhythms-&quot;&gt;Celebration Rhythms ★★★&lt;/h3&gt;
+&lt;p&gt;Regular festivals, seasonal events, and shared rituals create a communal calendar that strengthens belonging and collective memory.
+In many close-knit communities, celebrations are not left to professionals or institutions — they are co-created by the people who live there. Families and groups often take turns organizing local events, creating a natural rhythm of participation and ownership. These gatherings are usually tied to local history or tradition, and happen in familiar public spaces — such as plazas near municipal buildings.
+The events are typically lively and anticipated throughout the year. They generate not just entertainment, but a shared sense of identity, duty, and continuity. When people come together to decorate, cook, dance, or simply show up — it reinforces their role in the community story.
+Even small, recurring events can build a collective rhythm. The cycle of preparation and celebration becomes a heartbeat — making time feel shared rather than individual.&lt;/p&gt;
+
+&lt;h3 id=&quot;intergenerational-integration-&quot;&gt;Intergenerational Integration ★★&lt;/h3&gt;
+&lt;p&gt;Communities thrive when different age groups regularly interact, sharing knowledge, support, and perspectives. This pattern shows up when children, adults, and elders participate in daily life not in isolation, but as overlapping generations in shared spaces and activities.&lt;/p&gt;
+
+&lt;p&gt;When the streets are alive with elders walking, children playing, and families gathering, community becomes a living web rather than a set of isolated age groups. Children develop autonomy as they move independently between homes, public spaces, and natural areas like nearby streams or communal swimming pools — often learning by doing, observing, or being casually guided by older generations.&lt;/p&gt;
+
+&lt;p&gt;Celebrations, arts events, and public rituals become touchpoints where everyone gathers, each age group bringing its own energy and contribution. Elders stay visible and valued, not tucked away, and their presence becomes a source of quiet guidance, memory, and stability.&lt;/p&gt;
+
+&lt;p&gt;This echoes Alexander’s patterns such as &lt;strong&gt;26. Life Cycle&lt;/strong&gt;, which emphasizes designing for people at every stage of life, &lt;strong&gt;35. Household Mix&lt;/strong&gt;, which supports diversity in household structures and ages, and &lt;strong&gt;40. Old People Everywhere&lt;/strong&gt;, which calls for integrating elders into the everyday fabric of public life.&lt;/p&gt;
+
+&lt;p&gt;In contrast, when generations become siloed — elders isolated at home, children chauffeured and scheduled into separate activities — communities lose continuity. The youngest miss out on the slow transfer of cultural wisdom, and the oldest may feel increasingly irrelevant or disconnected.&lt;/p&gt;
+
+&lt;p&gt;Intergenerational integration may not happen automatically — it’s often supported by physical design (walkable areas, shared spaces), cultural habits, and social norms that invite everyone to take part in public life together.&lt;/p&gt;
+
+&lt;h3 id=&quot;living-streets-&quot;&gt;Living Streets ★★&lt;/h3&gt;
+&lt;p&gt;Streets designed primarily for human interaction rather than vehicle traffic create safe spaces where children can play freely, neighbors can converse, and community life can unfold organically. These pedestrian-friendly environments feature traffic calming measures, play areas, seating, and design elements that clearly signal that people have priority over cars. The resulting spontaneous interactions build neighborhood cohesion, enable intergenerational connections, and provide natural supervision that enhances safety for all residents.&lt;/p&gt;
+
+&lt;h3 id=&quot;visible-production-&quot;&gt;Visible Production ★★&lt;/h3&gt;
+&lt;p&gt;When production and crafts are visible, communities become more alive. From planting shared gardens, to making music at a local school or garage — these everyday acts of production, when done out in the open, invite curiosity, connection, and learning. They demystify how things are made and reconnect the links between work, play, and community life.&lt;/p&gt;
+
+&lt;p&gt;Some forms are organized, like public workshops, craft fairs, or music performances. Others are spontaneous and informal — like someone fixing a bike outside, baking bread in a communal oven, or children building a fort with scrap wood. Passersby often stop to watch, ask questions, or lend a hand. Elders might offer advice, kids might imitate, and neighbors might share stories or tools. These micro-interactions strengthen social fabric and build local identity.&lt;/p&gt;
+
+&lt;p&gt;When production is hidden behind closed doors, outsourced, or only professionalized, communities may begin to lose touch with the skills, labor, and care involved in making. It becomes harder to teach, harder to value, and harder to feel connected to the sources of food, tools, music, or meaning in our lives.&lt;/p&gt;
+
+&lt;p&gt;Places that support visible production — like shaded work tables, open-air workshops, or small market stalls — signal that making is part of everyday life and everyone belongs in it.&lt;/p&gt;
+
+&lt;h3 id=&quot;threshold-spaces-&quot;&gt;Threshold Spaces ★★&lt;/h3&gt;
+&lt;p&gt;Semi-private areas like porches, balconies, shaded courtyards, and stoops act as soft edges between the private interior of the home and the fully public street. These threshold zones offer comfort, partial seclusion, and a gentle invitation to connect. People may relax, observe, or host small gatherings there — not fully retreating into the home, yet not fully exposed.&lt;/p&gt;
+
+&lt;p&gt;When designed well, these spaces support casual interactions between neighbors, allowing for presence without obligation. In small communities, it’s common for courtyards to be shared between homes or for porches to become regular spots for visits between families. These zones foster trust and ease by softening the boundary between private and public life.&lt;/p&gt;
+
+&lt;p&gt;In contrast, when homes open directly onto busy streets with no buffer zone, or when apartment buildings lack balconies or shared landings, the transition between public and private becomes abrupt. This can make spontaneous connection rare or awkward. Shaded inner courtyards, in particular, have proven to be among the most effective threshold spaces — welcoming yet intimate, social yet relaxed.&lt;/p&gt;
+
+&lt;h3 id=&quot;local-decision-making-&quot;&gt;Local Decision-Making ★★&lt;/h3&gt;
+&lt;p&gt;When residents have meaningful input into community decisions, investment and responsibility over the commons naturally follow. In &lt;a href=&quot;https://youtu.be/n-uH36w9xg8&quot;&gt;some intentional communities&lt;/a&gt;, formal processes like Sociocracy create structured ways for everyone to participate in the governance of the community. Although it requires some prior knowledge or training over the decision-making methods. These governance meetings happen in regular in-person gatherings, or nowadays more through online channels that extend participation beyond physical presence.&lt;/p&gt;
+
+&lt;p&gt;When people are part of shaping the rules and rhythms of where they live, they tend to care more — for the space, for each other, and for the outcomes. This sense of autonomy supports individual well-being and reinforces mutual trust. Conversely, when decisions are imposed from the outside, it can lead to disconnection or resentment, even if the outcomes are well-intended.&lt;/p&gt;
+
+&lt;p&gt;Local governance doesn’t always require elaborate systems — what matters is that the people affected by a decision are included in making it.&lt;/p&gt;
+
+&lt;h3 id=&quot;shared-stewardship-&quot;&gt;Shared Stewardship ★★&lt;/h3&gt;
+&lt;p&gt;Collective care for common spaces, resources, and traditions builds interdependence, ownership, and pride. In thriving communities, residents don’t just use shared spaces — they tend to them. Gardens, footpaths, and gathering areas are maintained through informal coordination: word of mouth, spontaneous action, or simple messages in local chats. This casual, distributed form of care helps everyone feel invested. People don’t see themselves as consumers of someone else’s effort — they feel a sense of obligation and belonging that comes from contributing directly.&lt;/p&gt;
+
+&lt;p&gt;When shared spaces are cared for together, they become places of connection. The act of tending a garden or fixing a fence becomes a social experience, reinforcing bonds between neighbors. In contrast, when no one steps in, it’s not just the place that degrades — the community spirit begins to feel fragmented, as if everyone is living in parallel but separate lives. Stewardship, then, is not just about upkeep — it’s about cultivating a sense of “us.”&lt;/p&gt;
+
+&lt;p&gt;Community gardens are often the clearest examples of this pattern. They are easy to co-maintain, visibly rewarding, and open to all — turning a piece of land into a shared expression of mutual care.&lt;/p&gt;
+
+&lt;h3 id=&quot;permeable-boundaries-&quot;&gt;Permeable Boundaries ★&lt;/h3&gt;
+&lt;p&gt;Healthy communities balance a strong internal identity with openness to newcomers, visitors, and outside influences. In such places, outsiders are not treated with suspicion, but welcomed into the social fabric - often through shared meals, participation in festivals, or simply being included in the daily rituals of community life. While some intentional groups may require newcomers to formally learn local governance methods before fully participating, others follow a more fluid “observe and learn” approach. Either way, what matters most is connection: being invited, seen, and given room to contribute.&lt;/p&gt;
+
+&lt;p&gt;There are rarely sharp lines between insiders and outsiders — everyone was new once, and membership often emerges gradually through relationships and presence. Physical spaces like common houses or governance buildings can play a role in this integration, offering structured ways for people to take part. When a community becomes too open, it risks losing coherence and shared norms; when too closed, it can feel exclusive and impenetrable.&lt;/p&gt;
+</description>
+    <pubDate>Wed, 16 Apr 2025 11:47:00 +0300</pubDate>
+    <link>http://localhost:4000/Community-patterns/</link>
+    <guid isPermaLink="true">http://localhost:4000/Community-patterns/</guid>
+    
+    <category>community</category>
+    
+    <category>patterns</category>
+    
+    
+  </item>
   
   <item>
     <title>The two types of Twitter poasting</title>
@@ -87,8 +226,8 @@
 &lt;p&gt;What I’ve discovered is that the quest approach attracts people who are similarly curious about multiple domains. My timeline has become a kind of intellectual potluck where different perspectives and expertise collide in unexpected ways. The algorithm might not always know what to do with me, but the humans who resonate with this style of sharing certainly do. And ultimately, that’s what makes Twitter worthwhile for me - not optimizing for growth metrics, but creating space for genuine exploration and connection.&lt;/p&gt;
 </description>
     <pubDate>Sat, 08 Feb 2025 10:47:00 +0200</pubDate>
-    <link>https://marinpetrov.com/twitter/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/twitter/</guid>
+    <link>http://localhost:4000/twitter/</link>
+    <guid isPermaLink="true">http://localhost:4000/twitter/</guid>
     
     <category>social-media</category>
     
@@ -176,8 +315,8 @@ For example, we can choose to do something which will &lt;strong&gt;increase Ani
 
 </description>
     <pubDate>Wed, 25 Sep 2024 22:47:00 +0300</pubDate>
-    <link>https://marinpetrov.com/Value-in-rigging/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/Value-in-rigging/</guid>
+    <link>http://localhost:4000/Value-in-rigging/</link>
+    <guid isPermaLink="true">http://localhost:4000/Value-in-rigging/</guid>
     
     <category>CG</category>
     
@@ -225,8 +364,8 @@ For example, we can choose to do something which will &lt;strong&gt;increase Ani
 
 </description>
     <pubDate>Fri, 02 Feb 2024 14:19:00 +0200</pubDate>
-    <link>https://marinpetrov.com/Riding-the-crest/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/Riding-the-crest/</guid>
+    <link>http://localhost:4000/Riding-the-crest/</link>
+    <guid isPermaLink="true">http://localhost:4000/Riding-the-crest/</guid>
     
     <category>Poetry</category>
     
@@ -311,8 +450,8 @@ For example, we can choose to do something which will &lt;strong&gt;increase Ani
 &lt;p&gt;&lt;em&gt;If you are someone on a rigging leadership position, I would love to chat with you about all of this. Are you currently measuring any of these metrics? What are the current metrics of your team and how are they improving over time? Did you do something specific that affected those metrics positively? How about negatively? Reach out to marin@hey.com and drop me a mail so we can chat.&lt;/em&gt;&lt;/p&gt;
 </description>
     <pubDate>Wed, 01 Nov 2023 17:32:20 +0200</pubDate>
-    <link>https://marinpetrov.com/the-only-rigging-metrics-you-will-ever-need/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/the-only-rigging-metrics-you-will-ever-need/</guid>
+    <link>http://localhost:4000/the-only-rigging-metrics-you-will-ever-need/</link>
+    <guid isPermaLink="true">http://localhost:4000/the-only-rigging-metrics-you-will-ever-need/</guid>
     
     <category>rigging</category>
     
@@ -376,8 +515,8 @@ your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em
 
 </description>
     <pubDate>Sun, 24 Sep 2023 22:02:00 +0300</pubDate>
-    <link>https://marinpetrov.com/about-me/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/about-me/</guid>
+    <link>http://localhost:4000/about-me/</link>
+    <guid isPermaLink="true">http://localhost:4000/about-me/</guid>
     
     <category>biography</category>
     
@@ -466,8 +605,8 @@ your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em
 &lt;p&gt;If you enjoyed this article, follow me on &lt;a href=&quot;https://twitter.com/marinwaves&quot;&gt;&lt;span style=&quot;font-size:larger;&quot;&gt;&lt;strong&gt;Twitter&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;, where I write more about what I’m doing next and how I’m doing it.&lt;/p&gt;
 </description>
     <pubDate>Sun, 20 Aug 2023 13:32:20 +0300</pubDate>
-    <link>https://marinpetrov.com/why-i-quit-and-started-two-companies/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/why-i-quit-and-started-two-companies/</guid>
+    <link>http://localhost:4000/why-i-quit-and-started-two-companies/</link>
+    <guid isPermaLink="true">http://localhost:4000/why-i-quit-and-started-two-companies/</guid>
     
     <category>Management</category>
     
@@ -508,8 +647,8 @@ your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em
 &lt;p&gt;And for those interested in the technology I’m using for this site - I use Jekyll to generate static files. The templates are simple liquid HTML files, and all essays are written in markdown. I host all that on Github pages.&lt;/p&gt;
 </description>
     <pubDate>Sat, 12 Aug 2023 13:32:20 +0300</pubDate>
-    <link>https://marinpetrov.com/my-digital-sea-garden/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/my-digital-sea-garden/</guid>
+    <link>http://localhost:4000/my-digital-sea-garden/</link>
+    <guid isPermaLink="true">http://localhost:4000/my-digital-sea-garden/</guid>
     
     <category>howto</category>
     
@@ -550,8 +689,8 @@ your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em
 &lt;img src=&quot;/assets/img/watercolor-04.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
     <pubDate>Wed, 20 Apr 2022 13:32:20 +0300</pubDate>
-    <link>https://marinpetrov.com/watercolor-better-leader/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/watercolor-better-leader/</guid>
+    <link>http://localhost:4000/watercolor-better-leader/</link>
+    <guid isPermaLink="true">http://localhost:4000/watercolor-better-leader/</guid>
     
     <category>painting</category>
     
@@ -595,8 +734,8 @@ There are very few people who can read and understand code and especially the co
 When it comes to human collaboration, I am skeptical that DAOs solve something that can’t be quite easily solved otherwise. Self-managing companies which are autonomous and decentralized &lt;a href=&quot;https://www.youtube.com/watch?v=gcS04BI2sbk&quot;&gt;have existed for decades&lt;/a&gt; without the need for any special technology behind them. Cooperatives, which are also autonomous decentralized organizations have existed for centuries without the need for blockchains. We tend to believe that every world or human problem can be solved with technology nowadays, but unfortunately, some problems can’t. Trying to remove the messy parts of being a human by using computer code, blockchains and crypto doesn’t really work. And this is because human collaboration is above all… human.&lt;/p&gt;
 </description>
     <pubDate>Wed, 08 Dec 2021 12:32:20 +0200</pubDate>
-    <link>https://marinpetrov.com/DAOs-human-collaboration/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/DAOs-human-collaboration/</guid>
+    <link>http://localhost:4000/DAOs-human-collaboration/</link>
+    <guid isPermaLink="true">http://localhost:4000/DAOs-human-collaboration/</guid>
     
     <category>DAO</category>
     
@@ -647,8 +786,8 @@ When artists feel disengaged from work, innovation suffers, and mediocrity reign
 
 </description>
     <pubDate>Mon, 05 Jul 2021 13:32:20 +0300</pubDate>
-    <link>https://marinpetrov.com/why-all-studios-have-same-org-chart/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/why-all-studios-have-same-org-chart/</guid>
+    <link>http://localhost:4000/why-all-studios-have-same-org-chart/</link>
+    <guid isPermaLink="true">http://localhost:4000/why-all-studios-have-same-org-chart/</guid>
     
     <category>Management</category>
     
@@ -694,8 +833,8 @@ When artists feel disengaged from work, innovation suffers, and mediocrity reign
 &lt;p&gt;So describe your “Whys” and invite others to participate in the decisions.&lt;/p&gt;
 </description>
     <pubDate>Thu, 17 Jun 2021 13:35:20 +0300</pubDate>
-    <link>https://marinpetrov.com/rolling-processes/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/rolling-processes/</guid>
+    <link>http://localhost:4000/rolling-processes/</link>
+    <guid isPermaLink="true">http://localhost:4000/rolling-processes/</guid>
     
     <category>Culture</category>
     
@@ -717,8 +856,8 @@ When artists feel disengaged from work, innovation suffers, and mediocrity reign
 &lt;p&gt;&lt;em&gt;“If the world lived by those ideas, then they would all be grooving along with every beautiful and useful thing we touched and saw. Because the human being that created those things would have made them with the inner peace that comes to us all when the world of subject and object, me and you, romantic and classical, then and now, outside and inside simply fades away into the oneness.”&lt;/em&gt;&lt;/p&gt;
 </description>
     <pubDate>Fri, 30 Apr 2021 13:32:20 +0300</pubDate>
-    <link>https://marinpetrov.com/zen-and-the-art-of-motorcycle-maintenance/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/zen-and-the-art-of-motorcycle-maintenance/</guid>
+    <link>http://localhost:4000/zen-and-the-art-of-motorcycle-maintenance/</link>
+    <guid isPermaLink="true">http://localhost:4000/zen-and-the-art-of-motorcycle-maintenance/</guid>
     
     <category>Art</category>
     
@@ -781,8 +920,8 @@ When artists feel disengaged from work, innovation suffers, and mediocrity reign
 &lt;p&gt;So are you a small team or a big team? If you are a small team, then consider rebuilding your rigs without serializing your deformer data.&lt;/p&gt;
 </description>
     <pubDate>Sun, 31 May 2020 13:32:20 +0300</pubDate>
-    <link>https://marinpetrov.com/serializing-rigging-data-or-not/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/serializing-rigging-data-or-not/</guid>
+    <link>http://localhost:4000/serializing-rigging-data-or-not/</link>
+    <guid isPermaLink="true">http://localhost:4000/serializing-rigging-data-or-not/</guid>
     
     <category>Rigging</category>
     
@@ -881,8 +1020,8 @@ rewards and punishments. It just reinforces this constant loop. &lt;a href=&quot
 too much data already that this doesn’t work.&lt;/a&gt;&lt;/p&gt;
 </description>
     <pubDate>Tue, 19 Dec 2017 12:32:20 +0200</pubDate>
-    <link>https://marinpetrov.com/rewards-punishments-and-cabbage/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/rewards-punishments-and-cabbage/</guid>
+    <link>http://localhost:4000/rewards-punishments-and-cabbage/</link>
+    <guid isPermaLink="true">http://localhost:4000/rewards-punishments-and-cabbage/</guid>
     
     <category>NVC</category>
     
@@ -1036,8 +1175,8 @@ your thoughts and share any experiences you’ve had in the comments below!&lt;/
 
 </description>
     <pubDate>Tue, 19 Dec 2017 12:32:20 +0200</pubDate>
-    <link>https://marinpetrov.com/companies-are-decision-making-machines/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/companies-are-decision-making-machines/</guid>
+    <link>http://localhost:4000/companies-are-decision-making-machines/</link>
+    <guid isPermaLink="true">http://localhost:4000/companies-are-decision-making-machines/</guid>
     
     <category>Holacracy</category>
     
@@ -1182,8 +1321,8 @@ dedication to breaking habits that have been ingrained over the years, in an
 effort to find a better way to do what they love, every day.&lt;/p&gt;
 </description>
     <pubDate>Tue, 11 Apr 2017 13:32:20 +0300</pubDate>
-    <link>https://marinpetrov.com/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</link>
-    <guid isPermaLink="true">https://marinpetrov.com/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</guid>
+    <link>http://localhost:4000/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</link>
+    <guid isPermaLink="true">http://localhost:4000/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</guid>
     
     <category>Holacracy</category>
     
