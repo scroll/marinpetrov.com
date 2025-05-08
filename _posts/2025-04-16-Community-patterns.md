@@ -9,7 +9,7 @@ tags: [community, patterns]
 growth: 1
 ---
 
-I was spending some time these past few weeks with my friends Johnson and Javi in a small village near Alicante, Spain called Orxeta. Javi lives there, while me and Johnson were visiting. It was my second time there and the reason we keep coming back is because of the feeling of community the small village has. We were walking around the town's hills and pondering on the question of what makes a community "tick". Basically, what are the qualities or patterns (as Christopher Alexander would probably say) that make a community healthy and thriving. In this part of my garden I will keep track of all such patterns. 
+Me and my family were spending some time these past few weeks with friends in a small village near Alicante, Spain called Orxeta. Our friends Javi and Mabelle live there, while another friend - Johnson was visiting us for a few days. It was our second time there and the reason we keep coming back is because of the feeling of community the small village has. Me, Javi and Johnson were walking around the town's hills and pondering on the question of what makes a community "tick". Basically, what are the qualities or patterns (as Christopher Alexander would probably say) that make a community healthy and thriving. In this part of my garden (blog) I will keep track of all such patterns. 
 
 *Note: The patterns here will be constantly updated when I find new ones - please do comment below if you think there is a pattern you have observed that is not included yet.* 
 
