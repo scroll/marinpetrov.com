@@ -4,10 +4,10 @@
   <title>Hello! I&apos;m Marin Petrov and this is my digital garden.</title>
   <description>Marin Petrov&apos;s digital garden.
 </description>
-  <link>http://localhost:4000/</link>
-  <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-  <pubDate>Thu, 08 May 2025 12:56:16 +0300</pubDate>
-  <lastBuildDate>Thu, 08 May 2025 12:56:16 +0300</lastBuildDate>
+  <link>https://marinpetrov.com/</link>
+  <atom:link href="https://marinpetrov.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <pubDate>Sat, 23 May 2026 20:33:10 +0300</pubDate>
+  <lastBuildDate>Sat, 23 May 2026 20:33:10 +0300</lastBuildDate>
   <generator>Jekyll v4.3.2</generator>
   
   <item>
@@ -139,8 +139,8 @@ Even small, recurring events can build a collective rhythm. The cycle of prepara
 &lt;p&gt;There are rarely sharp lines between insiders and outsiders — everyone was new once, and membership often emerges gradually through relationships and presence. Physical spaces like common houses or governance buildings can play a role in this integration, offering structured ways for people to take part. When a community becomes too open, it risks losing coherence and shared norms; when too closed, it can feel exclusive and impenetrable.&lt;/p&gt;
 </description>
     <pubDate>Wed, 16 Apr 2025 11:47:00 +0300</pubDate>
-    <link>http://localhost:4000/Community-patterns/</link>
-    <guid isPermaLink="true">http://localhost:4000/Community-patterns/</guid>
+    <link>https://marinpetrov.com/Community-patterns/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/Community-patterns/</guid>
     
     <category>community</category>
     
@@ -226,8 +226,8 @@ Even small, recurring events can build a collective rhythm. The cycle of prepara
 &lt;p&gt;What I’ve discovered is that the quest approach attracts people who are similarly curious about multiple domains. My timeline has become a kind of intellectual potluck where different perspectives and expertise collide in unexpected ways. The algorithm might not always know what to do with me, but the humans who resonate with this style of sharing certainly do. And ultimately, that’s what makes Twitter worthwhile for me - not optimizing for growth metrics, but creating space for genuine exploration and connection.&lt;/p&gt;
 </description>
     <pubDate>Sat, 08 Feb 2025 10:47:00 +0200</pubDate>
-    <link>http://localhost:4000/twitter/</link>
-    <guid isPermaLink="true">http://localhost:4000/twitter/</guid>
+    <link>https://marinpetrov.com/twitter/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/twitter/</guid>
     
     <category>social-media</category>
     
@@ -315,8 +315,8 @@ For example, we can choose to do something which will &lt;strong&gt;increase Ani
 
 </description>
     <pubDate>Wed, 25 Sep 2024 22:47:00 +0300</pubDate>
-    <link>http://localhost:4000/Value-in-rigging/</link>
-    <guid isPermaLink="true">http://localhost:4000/Value-in-rigging/</guid>
+    <link>https://marinpetrov.com/Value-in-rigging/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/Value-in-rigging/</guid>
     
     <category>CG</category>
     
@@ -364,8 +364,8 @@ For example, we can choose to do something which will &lt;strong&gt;increase Ani
 
 </description>
     <pubDate>Fri, 02 Feb 2024 14:19:00 +0200</pubDate>
-    <link>http://localhost:4000/Riding-the-crest/</link>
-    <guid isPermaLink="true">http://localhost:4000/Riding-the-crest/</guid>
+    <link>https://marinpetrov.com/Riding-the-crest/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/Riding-the-crest/</guid>
     
     <category>Poetry</category>
     
@@ -450,8 +450,8 @@ For example, we can choose to do something which will &lt;strong&gt;increase Ani
 &lt;p&gt;&lt;em&gt;If you are someone on a rigging leadership position, I would love to chat with you about all of this. Are you currently measuring any of these metrics? What are the current metrics of your team and how are they improving over time? Did you do something specific that affected those metrics positively? How about negatively? Reach out to marin@hey.com and drop me a mail so we can chat.&lt;/em&gt;&lt;/p&gt;
 </description>
     <pubDate>Wed, 01 Nov 2023 17:32:20 +0200</pubDate>
-    <link>http://localhost:4000/the-only-rigging-metrics-you-will-ever-need/</link>
-    <guid isPermaLink="true">http://localhost:4000/the-only-rigging-metrics-you-will-ever-need/</guid>
+    <link>https://marinpetrov.com/the-only-rigging-metrics-you-will-ever-need/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/the-only-rigging-metrics-you-will-ever-need/</guid>
     
     <category>rigging</category>
     
@@ -515,8 +515,8 @@ your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em
 
 </description>
     <pubDate>Sun, 24 Sep 2023 22:02:00 +0300</pubDate>
-    <link>http://localhost:4000/about-me/</link>
-    <guid isPermaLink="true">http://localhost:4000/about-me/</guid>
+    <link>https://marinpetrov.com/about-me/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/about-me/</guid>
     
     <category>biography</category>
     
@@ -605,8 +605,8 @@ your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em
 &lt;p&gt;If you enjoyed this article, follow me on &lt;a href=&quot;https://twitter.com/marinwaves&quot;&gt;&lt;span style=&quot;font-size:larger;&quot;&gt;&lt;strong&gt;Twitter&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;, where I write more about what I’m doing next and how I’m doing it.&lt;/p&gt;
 </description>
     <pubDate>Sun, 20 Aug 2023 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/why-i-quit-and-started-two-companies/</link>
-    <guid isPermaLink="true">http://localhost:4000/why-i-quit-and-started-two-companies/</guid>
+    <link>https://marinpetrov.com/why-i-quit-and-started-two-companies/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/why-i-quit-and-started-two-companies/</guid>
     
     <category>Management</category>
     
@@ -647,8 +647,8 @@ your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em
 &lt;p&gt;And for those interested in the technology I’m using for this site - I use Jekyll to generate static files. The templates are simple liquid HTML files, and all essays are written in markdown. I host all that on Github pages.&lt;/p&gt;
 </description>
     <pubDate>Sat, 12 Aug 2023 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/my-digital-sea-garden/</link>
-    <guid isPermaLink="true">http://localhost:4000/my-digital-sea-garden/</guid>
+    <link>https://marinpetrov.com/my-digital-sea-garden/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/my-digital-sea-garden/</guid>
     
     <category>howto</category>
     
@@ -689,8 +689,8 @@ your burden, to soothe your spirit on this absurd voyage we call life.”&lt;/em
 &lt;img src=&quot;/assets/img/watercolor-04.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
     <pubDate>Wed, 20 Apr 2022 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/watercolor-better-leader/</link>
-    <guid isPermaLink="true">http://localhost:4000/watercolor-better-leader/</guid>
+    <link>https://marinpetrov.com/watercolor-better-leader/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/watercolor-better-leader/</guid>
     
     <category>painting</category>
     
@@ -734,8 +734,8 @@ There are very few people who can read and understand code and especially the co
 When it comes to human collaboration, I am skeptical that DAOs solve something that can’t be quite easily solved otherwise. Self-managing companies which are autonomous and decentralized &lt;a href=&quot;https://www.youtube.com/watch?v=gcS04BI2sbk&quot;&gt;have existed for decades&lt;/a&gt; without the need for any special technology behind them. Cooperatives, which are also autonomous decentralized organizations have existed for centuries without the need for blockchains. We tend to believe that every world or human problem can be solved with technology nowadays, but unfortunately, some problems can’t. Trying to remove the messy parts of being a human by using computer code, blockchains and crypto doesn’t really work. And this is because human collaboration is above all… human.&lt;/p&gt;
 </description>
     <pubDate>Wed, 08 Dec 2021 12:32:20 +0200</pubDate>
-    <link>http://localhost:4000/DAOs-human-collaboration/</link>
-    <guid isPermaLink="true">http://localhost:4000/DAOs-human-collaboration/</guid>
+    <link>https://marinpetrov.com/DAOs-human-collaboration/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/DAOs-human-collaboration/</guid>
     
     <category>DAO</category>
     
@@ -786,8 +786,8 @@ When artists feel disengaged from work, innovation suffers, and mediocrity reign
 
 </description>
     <pubDate>Mon, 05 Jul 2021 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/why-all-studios-have-same-org-chart/</link>
-    <guid isPermaLink="true">http://localhost:4000/why-all-studios-have-same-org-chart/</guid>
+    <link>https://marinpetrov.com/why-all-studios-have-same-org-chart/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/why-all-studios-have-same-org-chart/</guid>
     
     <category>Management</category>
     
@@ -833,8 +833,8 @@ When artists feel disengaged from work, innovation suffers, and mediocrity reign
 &lt;p&gt;So describe your “Whys” and invite others to participate in the decisions.&lt;/p&gt;
 </description>
     <pubDate>Thu, 17 Jun 2021 13:35:20 +0300</pubDate>
-    <link>http://localhost:4000/rolling-processes/</link>
-    <guid isPermaLink="true">http://localhost:4000/rolling-processes/</guid>
+    <link>https://marinpetrov.com/rolling-processes/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/rolling-processes/</guid>
     
     <category>Culture</category>
     
@@ -856,8 +856,8 @@ When artists feel disengaged from work, innovation suffers, and mediocrity reign
 &lt;p&gt;&lt;em&gt;“If the world lived by those ideas, then they would all be grooving along with every beautiful and useful thing we touched and saw. Because the human being that created those things would have made them with the inner peace that comes to us all when the world of subject and object, me and you, romantic and classical, then and now, outside and inside simply fades away into the oneness.”&lt;/em&gt;&lt;/p&gt;
 </description>
     <pubDate>Fri, 30 Apr 2021 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/zen-and-the-art-of-motorcycle-maintenance/</link>
-    <guid isPermaLink="true">http://localhost:4000/zen-and-the-art-of-motorcycle-maintenance/</guid>
+    <link>https://marinpetrov.com/zen-and-the-art-of-motorcycle-maintenance/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/zen-and-the-art-of-motorcycle-maintenance/</guid>
     
     <category>Art</category>
     
@@ -920,8 +920,8 @@ When artists feel disengaged from work, innovation suffers, and mediocrity reign
 &lt;p&gt;So are you a small team or a big team? If you are a small team, then consider rebuilding your rigs without serializing your deformer data.&lt;/p&gt;
 </description>
     <pubDate>Sun, 31 May 2020 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/serializing-rigging-data-or-not/</link>
-    <guid isPermaLink="true">http://localhost:4000/serializing-rigging-data-or-not/</guid>
+    <link>https://marinpetrov.com/serializing-rigging-data-or-not/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/serializing-rigging-data-or-not/</guid>
     
     <category>Rigging</category>
     
@@ -1020,8 +1020,8 @@ rewards and punishments. It just reinforces this constant loop. &lt;a href=&quot
 too much data already that this doesn’t work.&lt;/a&gt;&lt;/p&gt;
 </description>
     <pubDate>Tue, 19 Dec 2017 12:32:20 +0200</pubDate>
-    <link>http://localhost:4000/rewards-punishments-and-cabbage/</link>
-    <guid isPermaLink="true">http://localhost:4000/rewards-punishments-and-cabbage/</guid>
+    <link>https://marinpetrov.com/rewards-punishments-and-cabbage/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/rewards-punishments-and-cabbage/</guid>
     
     <category>NVC</category>
     
@@ -1175,8 +1175,8 @@ your thoughts and share any experiences you’ve had in the comments below!&lt;/
 
 </description>
     <pubDate>Tue, 19 Dec 2017 12:32:20 +0200</pubDate>
-    <link>http://localhost:4000/companies-are-decision-making-machines/</link>
-    <guid isPermaLink="true">http://localhost:4000/companies-are-decision-making-machines/</guid>
+    <link>https://marinpetrov.com/companies-are-decision-making-machines/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/companies-are-decision-making-machines/</guid>
     
     <category>Holacracy</category>
     
@@ -1321,8 +1321,8 @@ dedication to breaking habits that have been ingrained over the years, in an
 effort to find a better way to do what they love, every day.&lt;/p&gt;
 </description>
     <pubDate>Tue, 11 Apr 2017 13:32:20 +0300</pubDate>
-    <link>http://localhost:4000/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</link>
-    <guid isPermaLink="true">http://localhost:4000/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</guid>
+    <link>https://marinpetrov.com/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</link>
+    <guid isPermaLink="true">https://marinpetrov.com/Why-we-chose-Holacracy-for-an-indie-VR-game-studio/</guid>
     
     <category>Holacracy</category>
     
